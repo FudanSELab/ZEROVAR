@@ -1,0 +1,108 @@
+ERROR:root:[Error] - Method index 4139
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_csn_predict.py", line 51, in <module>
+    explanations = explainer.explain_with_doc(example)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(example.method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 38, in explain_for_var
+    generated_ids = self.base_model.generate(input_ids, max_new_tokens=128, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 1207, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 524, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 1040, in forward
+    layer_outputs = layer_module(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 673, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 579, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 521, in forward
+    position_bias = self.compute_bias(real_seq_length, key_length, device=scores.device)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 428, in compute_bias
+    relative_position_bucket = self._relative_position_bucket(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 414, in _relative_position_bucket
+    relative_position_if_large = torch.min(
+RuntimeError: CUDA out of memory. Tried to allocate 1.13 GiB (GPU 0; 23.70 GiB total capacity; 13.57 GiB already allocated; 942.62 MiB free; 13.69 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Method index 4140
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_csn_predict.py", line 51, in <module>
+    explanations = explainer.explain_with_doc(example)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(example.method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 38, in explain_for_var
+    generated_ids = self.base_model.generate(input_ids, max_new_tokens=128, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 1207, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 524, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 1040, in forward
+    layer_outputs = layer_module(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 673, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 579, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 521, in forward
+    position_bias = self.compute_bias(real_seq_length, key_length, device=scores.device)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 428, in compute_bias
+    relative_position_bucket = self._relative_position_bucket(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 414, in _relative_position_bucket
+    relative_position_if_large = torch.min(
+RuntimeError: CUDA out of memory. Tried to allocate 1.13 GiB (GPU 0; 23.70 GiB total capacity; 13.57 GiB already allocated; 928.62 MiB free; 13.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Method index 4141
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_csn_predict.py", line 51, in <module>
+    explanations = explainer.explain_with_doc(example)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(example.method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 38, in explain_for_var
+    generated_ids = self.base_model.generate(input_ids, max_new_tokens=128, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 1207, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 524, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 1040, in forward
+    layer_outputs = layer_module(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 673, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 579, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 521, in forward
+    position_bias = self.compute_bias(real_seq_length, key_length, device=scores.device)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 428, in compute_bias
+    relative_position_bucket = self._relative_position_bucket(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 414, in _relative_position_bucket
+    relative_position_if_large = torch.min(
+RuntimeError: CUDA out of memory. Tried to allocate 1.13 GiB (GPU 0; 23.70 GiB total capacity; 13.53 GiB already allocated; 928.62 MiB free; 13.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+

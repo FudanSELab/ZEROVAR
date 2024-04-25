@@ -1,0 +1,80 @@
+ERROR:root:[Error] - Method index 0
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 1
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 2
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 3
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 4
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 5
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 6
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 7
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 8
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+
+ERROR:root:[Error] - Method index 9
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 51, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 50, in add_exp_to_code
+    if var.line == idx:
+AttributeError: 'dict' object has no attribute 'line'
+

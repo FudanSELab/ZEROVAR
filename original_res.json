@@ -1,0 +1,5966 @@
+[
+    {
+        "id": "33f1acb3d5394cffaa412cb1d0031224#sp#sp",
+        "abbr": "sp",
+        "groundtruth": "shape painter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/806.java",
+        "other_candidate": [
+            "Shape Painter;",
+            "Shape Painter;Shape Painter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#o#oresponsewildcard",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#o#oresponsewildcard",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "def1180213d926eec312ebfa4c1c38fe#uri#lturi",
+        "abbr": "uri",
+        "groundtruth": "uniform resource identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/435.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "74d1e93770a621a743419fdf9bec8d28#ms#startedwaitingms",
+        "abbr": "ms",
+        "groundtruth": "millisecond",
+        "path": "data/AbbExpansion/pseudo_pj1/original/338.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "93f124d574bbccc2f2152483cc720a7b#m#m",
+        "abbr": "m",
+        "groundtruth": "model",
+        "path": "data/AbbExpansion/pseudo_pj1/original/703.java",
+        "other_candidate": [
+            "model;",
+            "model;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#o#obodywildcard",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "be95ee5d7f782a07e1e7b5d312b2a544#r#r",
+        "abbr": "r",
+        "groundtruth": "reader",
+        "path": "data/AbbExpansion/pseudo_pj1/original/369.java",
+        "other_candidate": [
+            "reader;",
+            "reader;reader;",
+            "run;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "58985d07be0af1cd2d599b238d3b0596#sess#sess",
+        "abbr": "sess",
+        "groundtruth": "session",
+        "path": "data/AbbExpansion/pseudo_pj1/original/427.java",
+        "other_candidate": [
+            "session;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7b65fb2b81f74c54d90e4ab0a5151617#pstmt#pstmt",
+        "abbr": "pstmt",
+        "groundtruth": "prepared statement",
+        "path": "data/AbbExpansion/pseudo_pj1/original/296.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "9a2d6942188893d192fb1dd4501a3689#cert#keypaircert",
+        "abbr": "cert",
+        "groundtruth": "certificate",
+        "path": "data/AbbExpansion/pseudo_pj1/original/465.java",
+        "other_candidate": [
+            "certificate;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f7622a02615b92f04b8fa63ea0c4b83c#ts#ts",
+        "abbr": "ts",
+        "groundtruth": "timestamp",
+        "path": "data/AbbExpansion/pseudo_pj1/original/595.java",
+        "other_candidate": [
+            "timestamps[+s];",
+            "timestamp;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ff734957866f65dbcb49953d9dc2ce92#c#ccomment",
+        "abbr": "c",
+        "groundtruth": "comment",
+        "path": "data/AbbExpansion/pseudo_pj1/original/141.java",
+        "other_candidate": [
+            "comment;",
+            "comment;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e3afdf2153364df169e731d5135b39dc#idx#protocolidx",
+        "abbr": "idx",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/571.java",
+        "other_candidate": [
+            "index;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f09a7d8dda79780f5f10c6af0767d61f#bg#formatbg",
+        "abbr": "bg",
+        "groundtruth": "button group",
+        "path": "data/AbbExpansion/pseudo_pj1/original/463.java",
+        "other_candidate": [
+            "Button Group;",
+            "Button Group;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "73c6f8eaa3abd26cd19ffa25c5a86bc5#len#textlen",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/445.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c2a5d39e46798d0cb08cba1d936e96cf#orig#origevt",
+        "abbr": "orig",
+        "groundtruth": "original",
+        "path": "data/AbbExpansion/pseudo_pj1/original/828.java",
+        "other_candidate": [
+            "original;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c2a5d39e46798d0cb08cba1d936e96cf#evt#origevt",
+        "abbr": "evt",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/828.java",
+        "other_candidate": [
+            "event;",
+            "event;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6b6bdda7eb50ac074ede6b7ef5cf04f6#ip#bipaddress",
+        "abbr": "ip",
+        "groundtruth": "internet protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/478.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "c47e024f850c0bc0522f462261365a8d#sys#sysprops",
+        "abbr": "sys",
+        "groundtruth": "system",
+        "path": "data/AbbExpansion/pseudo_pj1/original/433.java",
+        "other_candidate": [
+            "system;system;"
+        ],
+        "comment_candidate": [
+            "system;"
+        ]
+    },
+    {
+        "id": "7cd184c4c141a730fab8da36a9b34f00#len#len",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/331.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "738a6e22f5cdd73b1ad9496a2cc2cddc#sl#sl",
+        "abbr": "sl",
+        "groundtruth": "selector list",
+        "path": "data/AbbExpansion/pseudo_pj1/original/753.java",
+        "other_candidate": [
+            "Selector List;",
+            "style;",
+            "selector;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8bd8ada27b279ba028bbe10d3b75c042#org#org",
+        "abbr": "org",
+        "groundtruth": "organization",
+        "path": "data/AbbExpansion/pseudo_pj1/original/587.java",
+        "other_candidate": [
+            "organization;",
+            "organization;",
+            "organization;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "de50734c4441baee32c3bb08e02fb3a6#url#newurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/216.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "4aae2d8d6bb3e52a925d33f21df1ab17#seq#seqstream",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/840.java",
+        "other_candidate": [
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6da7fceb9204623faaf7e30235e533a2#g#g2d",
+        "abbr": "g",
+        "groundtruth": "graphics",
+        "path": "data/AbbExpansion/pseudo_pj1/original/743.java",
+        "other_candidate": [
+            "graphics;",
+            "graphics;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2fc371719ef3198f8b00a9ef4ce02d6e#sn#sn",
+        "abbr": "sn",
+        "groundtruth": "series name",
+        "path": "data/AbbExpansion/pseudo_pj1/original/693.java",
+        "other_candidate": [
+            "string;",
+            "series Name;",
+            "Series Names;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "03442e23cfb6c64062b61e10c89b9338#p#p",
+        "abbr": "p",
+        "groundtruth": "proxy",
+        "path": "data/AbbExpansion/pseudo_pj1/original/657.java",
+        "other_candidate": [
+            "proxy;",
+            "proxy;",
+            "proxy;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "395099614098eaeeaed77c84b95f1414#pp#pp",
+        "abbr": "pp",
+        "groundtruth": "pretty printer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/849.java",
+        "other_candidate": [
+            "Pretty Printer;",
+            "Pretty Printer;",
+            "pretty Print;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b42c6717f448f0f734611988e5383ec7#ver#ver",
+        "abbr": "ver",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/824.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d1bcca59db32be21c69e7cb61ea6ffb8#e#eparent",
+        "abbr": "e",
+        "groundtruth": "execution",
+        "path": "data/AbbExpansion/pseudo_pj1/original/594.java",
+        "other_candidate": [
+            "execution;",
+            "execution;",
+            "execution;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5f88c65582a39ae4fe4a2fd65700bcf5#loc#loc",
+        "abbr": "loc",
+        "groundtruth": "location",
+        "path": "data/AbbExpansion/pseudo_pj1/original/613.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2e615b37d97c0fc4bf5e325303be211b#rect#vrect",
+        "abbr": "rect",
+        "groundtruth": "rectangle",
+        "path": "data/AbbExpansion/pseudo_pj1/original/803.java",
+        "other_candidate": [
+            "rectangle;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4b41c07917c870bc0988c4be83925c0b#seq#seq",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/420.java",
+        "other_candidate": [
+            "sequence;",
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0eb7e11bcc93272031fec5788b6653af#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/727.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4f36c0480af762a2822f0b88b98a94bf#s#s1",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/749.java",
+        "other_candidate": [
+            "string;",
+            "similarity;"
+        ],
+        "comment_candidate": [
+            "sequence;",
+            "sequence;"
+        ]
+    },
+    {
+        "id": "4f36c0480af762a2822f0b88b98a94bf#s#s2",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/749.java",
+        "other_candidate": [
+            "string;",
+            "similarity;"
+        ],
+        "comment_candidate": [
+            "sequence;",
+            "sequence;"
+        ]
+    },
+    {
+        "id": "9e6f7fb67e7b3d90d8041507f0adcbf5#c#c",
+        "abbr": "c",
+        "groundtruth": "comparable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/622.java",
+        "other_candidate": [
+            "comparable;",
+            "comparable;compare;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4dc415f8925a714625a4d0722a22e7ba#ch#ch",
+        "abbr": "ch",
+        "groundtruth": "char",
+        "path": "data/AbbExpansion/pseudo_pj1/original/126.java",
+        "other_candidate": [
+            "char;",
+            "char;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3f94586ba45d9be01e5549eb841acb92#df#df",
+        "abbr": "df",
+        "groundtruth": "date formatter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/395.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "06f9bb9c716b231537cfef2264896a24#m#m1",
+        "abbr": "m",
+        "groundtruth": "map",
+        "path": "data/AbbExpansion/pseudo_pj1/original/696.java",
+        "other_candidate": [
+            "map;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "65bc6dc464f7455797cf6298957ed8c9#http#okhttpclient",
+        "abbr": "http",
+        "groundtruth": "hyper text transfer protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/208.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "06f9bb9c716b231537cfef2264896a24#m#m2",
+        "abbr": "m",
+        "groundtruth": "map",
+        "path": "data/AbbExpansion/pseudo_pj1/original/696.java",
+        "other_candidate": [
+            "map;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "eb494a4e06e8bec2559fbb1c6862e1f0#ac#ac",
+        "abbr": "ac",
+        "groundtruth": "annotated class",
+        "path": "data/AbbExpansion/pseudo_pj1/original/406.java",
+        "other_candidate": [
+            "Annotated Class;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e612a603d2e5740753244e78e4270284#rect#visrect",
+        "abbr": "rect",
+        "groundtruth": "rectangle",
+        "path": "data/AbbExpansion/pseudo_pj1/original/797.java",
+        "other_candidate": [
+            "rectangle;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fac3a1d22e33415fa025ca4c597fd141#s#svalue",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/495.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "046d9e2372414aef9a2b9d306a534cac#e#e",
+        "abbr": "e",
+        "groundtruth": "exception",
+        "path": "data/AbbExpansion/pseudo_pj1/original/173.java",
+        "other_candidate": [
+            "exception;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0950536e63724af9c0c932daa4cdf556#tg#tg",
+        "abbr": "tg",
+        "groundtruth": "thread group",
+        "path": "data/AbbExpansion/pseudo_pj1/original/355.java",
+        "other_candidate": [
+            "Thread Group;",
+            "Thread Group;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5137d64adba1099560b88f4e5827d5b8#t#t",
+        "abbr": "t",
+        "groundtruth": "throwable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/515.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "c2d6ba6d822142951c43ca29af27af5c#b#b3",
+        "abbr": "b",
+        "groundtruth": "bytes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/368.java",
+        "other_candidate": [
+            "bytes;",
+            "bytes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e0e0c3b29339a6d6df1e8e65fa0e26f2#l#l",
+        "abbr": "l",
+        "groundtruth": "list",
+        "path": "data/AbbExpansion/pseudo_pj1/original/370.java",
+        "other_candidate": [
+            "list;",
+            "list;",
+            "list#level;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "eab10186f0346e184b83e149c4f7f06c#c#c",
+        "abbr": "c",
+        "groundtruth": "class",
+        "path": "data/AbbExpansion/pseudo_pj1/original/178.java",
+        "other_candidate": [
+            "class;",
+            "class;",
+            "converter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5a333ede01bb024f4b7f5c5a7796e4a7#osw#osw",
+        "abbr": "osw",
+        "groundtruth": "output stream writer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/205.java",
+        "other_candidate": [
+            "Output Stream Writer;",
+            "Output Stream Writer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4f6ec9d1ef3ae783011ac606a631601b#cc#cc",
+        "abbr": "cc",
+        "groundtruth": "container configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/542.java",
+        "other_candidate": [
+            "Container Configuration;",
+            "Container Configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dae44cd4756a8ef75e02c091301775f6#d#d4",
+        "abbr": "d",
+        "groundtruth": "duration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/391.java",
+        "other_candidate": [
+            "duration;",
+            "duration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dae44cd4756a8ef75e02c091301775f6#d#d2",
+        "abbr": "d",
+        "groundtruth": "duration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/391.java",
+        "other_candidate": [
+            "duration;",
+            "duration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "52b4aea91be785a7e52e2cd26da7bc1d#l#l2",
+        "abbr": "l",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/678.java",
+        "other_candidate": [
+            "long;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "52b4aea91be785a7e52e2cd26da7bc1d#l#l1",
+        "abbr": "l",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/678.java",
+        "other_candidate": [
+            "long;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "db2ed03d36a4e249d9ae9db59e5284d9#d#d2",
+        "abbr": "d",
+        "groundtruth": "date",
+        "path": "data/AbbExpansion/pseudo_pj1/original/734.java",
+        "other_candidate": [
+            "date;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "db2ed03d36a4e249d9ae9db59e5284d9#d#d1",
+        "abbr": "d",
+        "groundtruth": "date",
+        "path": "data/AbbExpansion/pseudo_pj1/original/734.java",
+        "other_candidate": [
+            "date;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9d584da1d354f0e2bd33575055c7aee6#s#s",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/302.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d4187a96db9391397375bcc3a7e0efa3#t#t",
+        "abbr": "t",
+        "groundtruth": "to",
+        "path": "data/AbbExpansion/pseudo_pj1/original/206.java",
+        "other_candidate": [
+            "type;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "683350a696dcc86d75733243b5479cf9#st#st",
+        "abbr": "st",
+        "groundtruth": "string tokenizer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/815.java",
+        "other_candidate": [
+            "string;",
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c1cefc192e158faea5224b7aa87a983d#attr#originalattr",
+        "abbr": "attr",
+        "groundtruth": "attributes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/679.java",
+        "other_candidate": [
+            "attributes;",
+            "attributes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "db3328082732c2e1ce3e0371ce9f1278#i#i",
+        "abbr": "i",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/506.java",
+        "other_candidate": [
+            "index;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "198adb048395ada2a85796192949a3b6#params#queryparams",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/201.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8c7897e6bc8aca3a264ab271f2088c59#desc#desc",
+        "abbr": "desc",
+        "groundtruth": "descriptor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/638.java",
+        "other_candidate": [
+            "descriptor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "38744f90fbc88cbaa99e7840f0eb791f#rec#rec",
+        "abbr": "rec",
+        "groundtruth": "record",
+        "path": "data/AbbExpansion/pseudo_pj1/original/805.java",
+        "other_candidate": [
+            "record;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "906ff6471daa0bc9586632f61eb00e4b#laf#laf",
+        "abbr": "laf",
+        "groundtruth": "look and feel",
+        "path": "data/AbbExpansion/pseudo_pj1/original/513.java",
+        "other_candidate": [
+            "Look And Feel;",
+            "Look And Feel;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6bf6f17f64225129523307cd3b43c939#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/20.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f97db0252a37dc3e52022dd83179b0f5#img#tmpimg",
+        "abbr": "img",
+        "groundtruth": "image",
+        "path": "data/AbbExpansion/pseudo_pj1/original/769.java",
+        "other_candidate": [
+            "image;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0277ca33845a44dc6f34742125161aaf#fc#fc",
+        "abbr": "fc",
+        "groundtruth": "from classpath",
+        "path": "data/AbbExpansion/pseudo_pj1/original/143.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "495c871652eb27bc585854338eef5466#cal#cal",
+        "abbr": "cal",
+        "groundtruth": "calendar",
+        "path": "data/AbbExpansion/pseudo_pj1/original/602.java",
+        "other_candidate": [
+            "calendar;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "79c362bc7871bfa920827d95e5f517f3#params#keyparams",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/509.java",
+        "other_candidate": [
+            "parameters[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "39397f02774ca293ba60edb5bb935861#ym#ym",
+        "abbr": "ym",
+        "groundtruth": "year month",
+        "path": "data/AbbExpansion/pseudo_pj1/original/402.java",
+        "other_candidate": [
+            "Year Month;",
+            "Year Month;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f68c31dbce4d152fe2e3cacb491c43b1#conn#conn",
+        "abbr": "conn",
+        "groundtruth": "commection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/480.java",
+        "other_candidate": [
+            "connection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a83f34c90d63c312327ad7513730805f#src#srcobject",
+        "abbr": "src",
+        "groundtruth": "source",
+        "path": "data/AbbExpansion/pseudo_pj1/original/304.java",
+        "other_candidate": [
+            "source;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "043d7825f8c8a4c7d21d5e2db15c111f#zr#zr",
+        "abbr": "zr",
+        "groundtruth": "zero recter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/808.java",
+        "other_candidate": [
+            "zero;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "39d3f2c36ead4e74a599ed22edf0e0d1#obj#whitespacearoundcheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/95.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "73c6f8eaa3abd26cd19ffa25c5a86bc5#num#numadded",
+        "abbr": "num",
+        "groundtruth": "number",
+        "path": "data/AbbExpansion/pseudo_pj1/original/445.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "375dba649820b501024cf09b077c480f#g#typegtrans",
+        "abbr": "g",
+        "groundtruth": "general",
+        "path": "data/AbbExpansion/pseudo_pj1/original/798.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "375dba649820b501024cf09b077c480f#trans#typegtrans",
+        "abbr": "trans",
+        "groundtruth": "transform",
+        "path": "data/AbbExpansion/pseudo_pj1/original/798.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "5f70148693c3477113f60a4efc1759ec#ext#ext",
+        "abbr": "ext",
+        "groundtruth": "extension",
+        "path": "data/AbbExpansion/pseudo_pj1/original/738.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a791f3b83c6894b527a001e14d488326#mgmt#mgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/608.java",
+        "other_candidate": [
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f9684f1c7c522323231d6f71d358b38e#rs#rs",
+        "abbr": "rs",
+        "groundtruth": "result set",
+        "path": "data/AbbExpansion/pseudo_pj1/original/278.java",
+        "other_candidate": [
+            "Result Set;",
+            "results[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f198864d6ea37a5df52bd70ed17f1168#rmn#rmn",
+        "abbr": "rmn",
+        "groundtruth": "runtime module",
+        "path": "data/AbbExpansion/pseudo_pj1/original/347.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "af60802811669a047609dd3141d02dc3#str#strbuff",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/490.java",
+        "other_candidate": [
+            "string;",
+            "string;",
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "65f9fce2cdc1a174d19b18a98252770b#sb#sbhex",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/500.java",
+        "other_candidate": [
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0ab1351028cb8055b33dc9e10adcb63f#c#mockc2",
+        "abbr": "c",
+        "groundtruth": "command",
+        "path": "data/AbbExpansion/pseudo_pj1/original/386.java",
+        "other_candidate": [
+            "command;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0ab1351028cb8055b33dc9e10adcb63f#c#mockc1",
+        "abbr": "c",
+        "groundtruth": "command",
+        "path": "data/AbbExpansion/pseudo_pj1/original/386.java",
+        "other_candidate": [
+            "command;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "20372e7448a21b0919cb0865194dc19d#ee#ee",
+        "abbr": "ee",
+        "groundtruth": "expression evaluator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/559.java",
+        "other_candidate": [
+            "Expression Evaluator;",
+            "execution;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e97f0b8f879e158103c92baf2cc7b35a#msg#msg",
+        "abbr": "msg",
+        "groundtruth": "message",
+        "path": "data/AbbExpansion/pseudo_pj1/original/610.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "cc19adc75f1f76f5e65d9590eb6b007e#param#wildparam",
+        "abbr": "param",
+        "groundtruth": "parameterized",
+        "path": "data/AbbExpansion/pseudo_pj1/original/152.java",
+        "other_candidate": [
+            "parameterized;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6fe7aa7bdc905db4e7cee1ba4d91c418#tgt#tgt",
+        "abbr": "tgt",
+        "groundtruth": "target",
+        "path": "data/AbbExpansion/pseudo_pj1/original/761.java",
+        "other_candidate": [
+            "target;",
+            "target;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "387baa2652a3e3641ca38967fd6bfecc#sb#nanosb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/324.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "aa0c98e46becadcdb47c2d8c23aea119#str#parentconfigstr",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/632.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "07ccb1b5aa25a892330bb6cb0074ca57#config#secondfilterconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/125.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "441ce6f2600f0be96ad4fad80320ed6b#pos#ixpos",
+        "abbr": "pos",
+        "groundtruth": "position",
+        "path": "data/AbbExpansion/pseudo_pj1/original/456.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "21db89cd42556fc82bb5d318aab2d6d2#env#env",
+        "abbr": "env",
+        "groundtruth": "environment",
+        "path": "data/AbbExpansion/pseudo_pj1/original/383.java",
+        "other_candidate": [
+            "environment;",
+            "environment;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "63a9f484d188e0ae69f4320a29f4c441#attr#styleattrbuffer",
+        "abbr": "attr",
+        "groundtruth": "attribute",
+        "path": "data/AbbExpansion/pseudo_pj1/original/780.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "258a6e959aa7710f97491976bc02828c#m#m",
+        "abbr": "m",
+        "groundtruth": "matcher",
+        "path": "data/AbbExpansion/pseudo_pj1/original/195.java",
+        "other_candidate": [
+            "matcher;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "328d2fd29f87a22dc07e4f7dc7b7b4bd#dir#dir",
+        "abbr": "dir",
+        "groundtruth": "directory",
+        "path": "data/AbbExpansion/pseudo_pj1/original/269.java",
+        "other_candidate": [
+            "directory;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "04e8e5530e3965219b3dc9d97276090e#sec#secex",
+        "abbr": "sec",
+        "groundtruth": "security",
+        "path": "data/AbbExpansion/pseudo_pj1/original/813.java",
+        "other_candidate": [
+            "security;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3c2c6c024eea3dfc77759eedf9fd017f#g#srcg",
+        "abbr": "g",
+        "groundtruth": "graphic",
+        "path": "data/AbbExpansion/pseudo_pj1/original/843.java",
+        "other_candidate": [
+            "get;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f04ea5d0f88698d3dc899b64f2e11c75#len#len",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/737.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "length;"
+        ]
+    },
+    {
+        "id": "c1306a1e73c7eb77b8c05664599e7871#ctx#svgctx",
+        "abbr": "ctx",
+        "groundtruth": "context",
+        "path": "data/AbbExpansion/pseudo_pj1/original/752.java",
+        "other_candidate": [
+            "context;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fac3a1d22e33415fa025ca4c597fd141#o#o",
+        "abbr": "o",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/495.java",
+        "other_candidate": [
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b35e72c1d8c95ca1e44d6593a5e6c7f6#vr#vr",
+        "abbr": "vr",
+        "groundtruth": "version range",
+        "path": "data/AbbExpansion/pseudo_pj1/original/537.java",
+        "other_candidate": [
+            "Version Range;",
+            "Version Range;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e431877e49685fec6fd3536e5aae9089#seq#commonseq",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/744.java",
+        "other_candidate": [
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e017d509380f2ee5a5813bed47233b65#md#md",
+        "abbr": "md",
+        "groundtruth": "command",
+        "path": "data/AbbExpansion/pseudo_pj1/original/361.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "92c3d9ac1039a01b4a88444379e5403c#r#tmpr1",
+        "abbr": "r",
+        "groundtruth": "raster",
+        "path": "data/AbbExpansion/pseudo_pj1/original/762.java",
+        "other_candidate": [
+            "raster;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c96464c6853892a252da869a0a689368#n#a1n",
+        "abbr": "n",
+        "groundtruth": "node",
+        "path": "data/AbbExpansion/pseudo_pj1/original/641.java",
+        "other_candidate": [
+            "node;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "84deb44096cf9c9957aa8f9ba9b8eb44#ref#versioningref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/615.java",
+        "other_candidate": [
+            "reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "07ccb1b5aa25a892330bb6cb0074ca57#config#firstcheckerconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/125.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "51d706686cf5f8f79f3a59c34ca45cfa#md#rootmapmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/352.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "440b2f38ff52d4ed60f41cfab6982bf2#iter#providesiter",
+        "abbr": "iter",
+        "groundtruth": "iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/665.java",
+        "other_candidate": [
+            "iterator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b12b28e161afd24843398140ba6027dd#pos#viewportpos",
+        "abbr": "pos",
+        "groundtruth": "position",
+        "path": "data/AbbExpansion/pseudo_pj1/original/807.java",
+        "other_candidate": [
+            "points[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "cf1f14c54e6010d0716883eb9b930e57#b#b",
+        "abbr": "b",
+        "groundtruth": "bytes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/188.java",
+        "other_candidate": [
+            "byte;",
+            "bytes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dcfca238419686aea303500bb2c522f0#obj#staticvariablenamecheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/133.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "07ccb1b5aa25a892330bb6cb0074ca57#config#firstfilterconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/125.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f3a93a8835e0fbcc626983ed90b0ff14#te#te",
+        "abbr": "te",
+        "groundtruth": "timed element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/810.java",
+        "other_candidate": [
+            "Timed Element;",
+            "Timed Element;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "34f30513648b924c3e26501e3dba2a02#ver#ver",
+        "abbr": "ver",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/530.java",
+        "other_candidate": [
+            "version;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a99826e9286978e263abc236850e63f0#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string buffer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/818.java",
+        "other_candidate": [
+            "String Buffer;",
+            "String Buffer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ba0d02bc74e96750c260ddb5e8ff8529#wr#srcwr",
+        "abbr": "wr",
+        "groundtruth": "writable raster",
+        "path": "data/AbbExpansion/pseudo_pj1/original/792.java",
+        "other_candidate": [
+            "Writable Raster;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8a7af4de4657a42309c707548d20f1ab#c#c3",
+        "abbr": "c",
+        "groundtruth": "component",
+        "path": "data/AbbExpansion/pseudo_pj1/original/705.java",
+        "other_candidate": [
+            "component;",
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8a7af4de4657a42309c707548d20f1ab#c#c1",
+        "abbr": "c",
+        "groundtruth": "component",
+        "path": "data/AbbExpansion/pseudo_pj1/original/705.java",
+        "other_candidate": [
+            "component;",
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8a7af4de4657a42309c707548d20f1ab#c#c2",
+        "abbr": "c",
+        "groundtruth": "component",
+        "path": "data/AbbExpansion/pseudo_pj1/original/705.java",
+        "other_candidate": [
+            "component;",
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2ffcab0f1d730690c52a118081ff6571#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/268.java",
+        "other_candidate": [
+            "parameters[+s];",
+            "parameters;",
+            "parameters[+s];",
+            "parameters;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d1ac4538eba90d03f1a77459edf498e1#str#deroctetstr",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/423.java",
+        "other_candidate": [
+            "string;",
+            "string;",
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "51a8450ae7ab3ec347c4fe2e60cf7776#int#bigint",
+        "abbr": "int",
+        "groundtruth": "integer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/499.java",
+        "other_candidate": [
+            "integer;",
+            "integer;integer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "98ad5b7ab33e124827f684f308fd6993#t#t",
+        "abbr": "t",
+        "groundtruth": "token",
+        "path": "data/AbbExpansion/pseudo_pj1/original/342.java",
+        "other_candidate": [
+            "token;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "70301def748d5dadd85b67ff89a0c53e#col#col",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/426.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "column;column;column;column;column;column;column;column;"
+        ]
+    },
+    {
+        "id": "d5f5fe4f512bfef38f0c414600a8d7ec#seq#seq2",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/732.java",
+        "other_candidate": [
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d5f5fe4f512bfef38f0c414600a8d7ec#seq#seq1",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/732.java",
+        "other_candidate": [
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "cbeb32d23b43ad84af85b0a5d65bd9e0#ksqv#ksqv",
+        "abbr": "ksqv",
+        "groundtruth": "key storage quality value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/429.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "61ab7f063deabaffc3ed3838ca0b6236#cd#cd",
+        "abbr": "cd",
+        "groundtruth": "component dependency",
+        "path": "data/AbbExpansion/pseudo_pj1/original/549.java",
+        "other_candidate": [
+            "Component Dependency;",
+            "Component Dependency;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ea8e6790da119c29f22d83266f27c7e4#xpath#suppressionxpathfilter",
+        "abbr": "xpath",
+        "groundtruth": "xml path language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/145.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "aaf7c45a3385a76830eb7caaf3d59502#obj#obj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/562.java",
+        "other_candidate": [
+            "object;",
+            "object;",
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "678b78af6787f66586ae6c1d28606855#sspi#sspi",
+        "abbr": "sspi",
+        "groundtruth": "single segment path iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/830.java",
+        "other_candidate": [
+            "Single Segment Path Iterator;",
+            "Single Segment Path Iterator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "784efdf10632581a8e3f6ab9eb93e0b1#p#sub2p",
+        "abbr": "p",
+        "groundtruth": "property",
+        "path": "data/AbbExpansion/pseudo_pj1/original/329.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "9a2d6942188893d192fb1dd4501a3689#prot#prot",
+        "abbr": "prot",
+        "groundtruth": "protection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/465.java",
+        "other_candidate": [
+            "protection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "784efdf10632581a8e3f6ab9eb93e0b1#p#sub1p",
+        "abbr": "p",
+        "groundtruth": "property",
+        "path": "data/AbbExpansion/pseudo_pj1/original/329.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "3aeea7c0430b87681e4fae64b8fb1c06#prov#sprov",
+        "abbr": "prov",
+        "groundtruth": "provider",
+        "path": "data/AbbExpansion/pseudo_pj1/original/502.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6f318c0d44b98e67a9fe884abb45631f#g#g",
+        "abbr": "g",
+        "groundtruth": "graphics",
+        "path": "data/AbbExpansion/pseudo_pj1/original/291.java",
+        "other_candidate": [
+            "graphics;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0b18a86ca2eaa164b360e1056aa43617#tk#tk",
+        "abbr": "tk",
+        "groundtruth": "toolkit",
+        "path": "data/AbbExpansion/pseudo_pj1/original/804.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "c6c08b6bc14d81e9b98745b5919d6992#xml#xmldoc",
+        "abbr": "xml",
+        "groundtruth": "extensible markup language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/454.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "7a520f62d5477caee879f6c655dcfe0b#mgmt#pluginmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/606.java",
+        "other_candidate": [
+            "management;",
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ccaf2ae794abce7416fde04a7a9d25e2#raf#raf",
+        "abbr": "raf",
+        "groundtruth": "random access file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/741.java",
+        "other_candidate": [
+            "Random Access File;",
+            "Random Access File;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "27f7ef5f6cae1fbd6a2747256bc2a924#c#urlc",
+        "abbr": "c",
+        "groundtruth": "connection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/839.java",
+        "other_candidate": [
+            "connection;"
+        ],
+        "comment_candidate": [
+            "content;"
+        ]
+    },
+    {
+        "id": "19368ddb7f7a93fc2223435dea113c89#info#testinfooutputstream",
+        "abbr": "info",
+        "groundtruth": "information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/136.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d5ea0e273a95925376375cb1b3279c57#reg#reg",
+        "abbr": "reg",
+        "groundtruth": "registry",
+        "path": "data/AbbExpansion/pseudo_pj1/original/783.java",
+        "other_candidate": [
+            "registry;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "65dc2c6f76e5b9aa1fa25c8ba0af9f38#md#mymd",
+        "abbr": "md",
+        "groundtruth": "modules",
+        "path": "data/AbbExpansion/pseudo_pj1/original/330.java",
+        "other_candidate": [
+            "module;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "190c214383033de4957e312b5fe2bc0d#ti#ti",
+        "abbr": "ti",
+        "groundtruth": "trait information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/823.java",
+        "other_candidate": [
+            "Trait Information;",
+            "Trait Information;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c931b6faacb715fe73288ae837892003#c#c",
+        "abbr": "c",
+        "groundtruth": "connection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/720.java",
+        "other_candidate": [
+            "connection;",
+            "connection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "08c9d6e1c9b6bc9a3663b99247f022fe#w#w",
+        "abbr": "w",
+        "groundtruth": "width",
+        "path": "data/AbbExpansion/pseudo_pj1/original/790.java",
+        "other_candidate": [
+            "width;width;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d2b2619f1b2eb0bf2110bd91564a2b36#conf#childconf",
+        "abbr": "conf",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/50.java",
+        "other_candidate": [
+            "configuration;",
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "614027678c10ee3fd8b2c93d99418be0#config#config",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/690.java",
+        "other_candidate": [
+            "configuration;",
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4e4a170dce605a4746cf8c8b4c66ccc4#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/633.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "545c932b19a6a0e1eb1f9c1101cffcc4#tr#tr",
+        "abbr": "tr",
+        "groundtruth": "transform",
+        "path": "data/AbbExpansion/pseudo_pj1/original/759.java",
+        "other_candidate": [
+            "transform;",
+            "transform;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c20a1b415c649f40f6a986a67c1c7970#url#jarurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/334.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0a37b1c8c82a82eb8517450af5a0b8cc#ure#ure",
+        "abbr": "ure",
+        "groundtruth": "URL registry entry",
+        "path": "data/AbbExpansion/pseudo_pj1/original/774.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "4a0243a994a394aa084988acad6f21c5#passwd#passwd",
+        "abbr": "passwd",
+        "groundtruth": "password",
+        "path": "data/AbbExpansion/pseudo_pj1/original/557.java",
+        "other_candidate": [
+            "password;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "bf341f7f38dacd1281fe7dee7d1b1cfd#h#h",
+        "abbr": "h",
+        "groundtruth": "height",
+        "path": "data/AbbExpansion/pseudo_pj1/original/704.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8e338b305f931325ce379dfcb26652be#mpcr#mpcr",
+        "abbr": "mpcr",
+        "groundtruth": "model problem collector request",
+        "path": "data/AbbExpansion/pseudo_pj1/original/662.java",
+        "other_candidate": [
+            "Model Problem Collector Request;",
+            "Model Problem Collector Request;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#col#col",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [
+            "col;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "387baa2652a3e3641ca38967fd6bfecc#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/324.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ead289a60210e123b0bb33ca436e6153#elem#txtelem",
+        "abbr": "elem",
+        "groundtruth": "element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/821.java",
+        "other_candidate": [
+            "element;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dee518c03ed13cc3cf443cc37074bc51#p#pquals",
+        "abbr": "p",
+        "groundtruth": "policy",
+        "path": "data/AbbExpansion/pseudo_pj1/original/486.java",
+        "other_candidate": [
+            "pi;",
+            "policies;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dee518c03ed13cc3cf443cc37074bc51#quals#pquals",
+        "abbr": "quals",
+        "groundtruth": "qualifiers",
+        "path": "data/AbbExpansion/pseudo_pj1/original/486.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "de0604e072337bc452f1b536f8ea9abc#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/470.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "b0a64171cf83eb0f9c747146fe730c34#pos#underlineposstr",
+        "abbr": "pos",
+        "groundtruth": "position",
+        "path": "data/AbbExpansion/pseudo_pj1/original/832.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "def1180213d926eec312ebfa4c1c38fe#uri#euri",
+        "abbr": "uri",
+        "groundtruth": "uniform resource identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/435.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f0ae09e9268c477c5950bb63fd22421e#xml#xml",
+        "abbr": "xml",
+        "groundtruth": "extensible markup language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/417.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "beeb380d12c36dd959cc846625a63667#dl#dl",
+        "abbr": "dl",
+        "groundtruth": "default logger",
+        "path": "data/AbbExpansion/pseudo_pj1/original/4.java",
+        "other_candidate": [
+            "Default Logger;",
+            "Default Logger;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0d20e0eb846773446f28aa14c9eb2e30#ed#ed",
+        "abbr": "ed",
+        "groundtruth": "extension descriptor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/609.java",
+        "other_candidate": [
+            "Extension Descriptor;",
+            "Empty Descriptor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3d7b56141157c6dcd0848a991749e695#ff#prevff",
+        "abbr": "ff",
+        "groundtruth": "font family",
+        "path": "data/AbbExpansion/pseudo_pj1/original/758.java",
+        "other_candidate": [
+            "Font Family;",
+            "font Family;",
+            "For Font;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d419d9060b80fb3125b21949aa010c40#g#g0",
+        "abbr": "g",
+        "groundtruth": "goal",
+        "path": "data/AbbExpansion/pseudo_pj1/original/630.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "121feb1c7ca042122896ab81caa08afe#config#plexusconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/651.java",
+        "other_candidate": [
+            "configuration;",
+            "configuration;configuration;configuration;",
+            "configure;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ed8d4113b48b04af185ee5149d08f98d#res#resit",
+        "abbr": "res",
+        "groundtruth": "resource",
+        "path": "data/AbbExpansion/pseudo_pj1/original/654.java",
+        "other_candidate": [
+            "resources;",
+            "resource;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0376c3a88cc2c7160cce2fba926645ce#descs#accdescs",
+        "abbr": "descs",
+        "groundtruth": "descriptions",
+        "path": "data/AbbExpansion/pseudo_pj1/original/441.java",
+        "other_candidate": [
+            "descriptions[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "959379a381a333f853664ca2b11e0284#dir#userdir",
+        "abbr": "dir",
+        "groundtruth": "directory",
+        "path": "data/AbbExpansion/pseudo_pj1/original/343.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d2306490b44c521e43da554ed035f30c#o#o3",
+        "abbr": "o",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/398.java",
+        "other_candidate": [
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d2306490b44c521e43da554ed035f30c#o#o6",
+        "abbr": "o",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/398.java",
+        "other_candidate": [
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a0b525c2deb4ffd71e8206ab06779231#th#th",
+        "abbr": "th",
+        "groundtruth": "throwable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/374.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "452f36cde46bbab6d7e08174b84d243a#dtd#dtdpath",
+        "abbr": "dtd",
+        "groundtruth": "document type definition",
+        "path": "data/AbbExpansion/pseudo_pj1/original/146.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "5c40d6e936cee5784f0c491123c02a72#conf#conf",
+        "abbr": "conf",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/601.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a261443844b2a93bb4106dcfb46f3e05#b#b4",
+        "abbr": "b",
+        "groundtruth": "bytes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/306.java",
+        "other_candidate": [
+            "bean;",
+            "bean;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1f83dda555a408530a8c3d018935ed65#scrn#scrntrans",
+        "abbr": "scrn",
+        "groundtruth": "screen",
+        "path": "data/AbbExpansion/pseudo_pj1/original/841.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "1f83dda555a408530a8c3d018935ed65#trans#scrntrans",
+        "abbr": "trans",
+        "groundtruth": "transform",
+        "path": "data/AbbExpansion/pseudo_pj1/original/841.java",
+        "other_candidate": [
+            "transform;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b439804cc03581c97ba1f935c7c40027#v#newv",
+        "abbr": "v",
+        "groundtruth": "vertex",
+        "path": "data/AbbExpansion/pseudo_pj1/original/611.java",
+        "other_candidate": [
+            "vertex;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e4835eaca62a3e214be92f048d01973c#tmp#tmp",
+        "abbr": "tmp",
+        "groundtruth": "temporary",
+        "path": "data/AbbExpansion/pseudo_pj1/original/520.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "23cc4a25c45699b794bb0fd3c4b4391b#args#emptyargs",
+        "abbr": "args",
+        "groundtruth": "arguments",
+        "path": "data/AbbExpansion/pseudo_pj1/original/204.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "33b73b2edbaa6e14392173269d1e02d2#auth#authselector",
+        "abbr": "auth",
+        "groundtruth": "authentication",
+        "path": "data/AbbExpansion/pseudo_pj1/original/583.java",
+        "other_candidate": [
+            "authentication;",
+            "authentication;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#o#oresultwildcard",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a4fabf8c640aa42f29a94f483a3b66e8#w#tmpw",
+        "abbr": "w",
+        "groundtruth": "width",
+        "path": "data/AbbExpansion/pseudo_pj1/original/801.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a38a67ee33b41acf8e870d6e004a3f3c#b#segb",
+        "abbr": "b",
+        "groundtruth": "bounds",
+        "path": "data/AbbExpansion/pseudo_pj1/original/770.java",
+        "other_candidate": [
+            "bounds;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "150c9e4cf04244d9c4dd4a8d3fa6c50b#app#appbuilder",
+        "abbr": "app",
+        "groundtruth": "application",
+        "path": "data/AbbExpansion/pseudo_pj1/original/388.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d3b37f80f2f8135df12f79ee6f671f53#config#filterconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/3.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8aaa32d6fabfacc1a88a790968b18da0#dep#dep",
+        "abbr": "dep",
+        "groundtruth": "dependency",
+        "path": "data/AbbExpansion/pseudo_pj1/original/590.java",
+        "other_candidate": [
+            "dependency;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8192521052aa44ca1699628b1ae88871#tgt#tgt",
+        "abbr": "tgt",
+        "groundtruth": "target",
+        "path": "data/AbbExpansion/pseudo_pj1/original/649.java",
+        "other_candidate": [
+            "target;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "26ed44d503d546953413042e13ced359#i#i",
+        "abbr": "i",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/288.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "9ff2245be624e1ce65979457a3331265#col#colname",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/290.java",
+        "other_candidate": [
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8c6ce52c1603e007c4575d80d298781a#cal#cal",
+        "abbr": "cal",
+        "groundtruth": "calendar",
+        "path": "data/AbbExpansion/pseudo_pj1/original/346.java",
+        "other_candidate": [
+            "calendar;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4b39b1ab1553f5c656d9b80d9d9b2e8b#dom#dom",
+        "abbr": "dom",
+        "groundtruth": "document",
+        "path": "data/AbbExpansion/pseudo_pj1/original/694.java",
+        "other_candidate": [
+            "document;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "659c9e2cc6a203f648ce69f9fe024666#sr#sr",
+        "abbr": "sr",
+        "groundtruth": "soft reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/771.java",
+        "other_candidate": [
+            "Soft Reference;",
+            "Soft Reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2ff084e4cc45d531f66f37474b1f4590#json#jsonreader",
+        "abbr": "json",
+        "groundtruth": "javascript object notation",
+        "path": "data/AbbExpansion/pseudo_pj1/original/181.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "bf153f211008ef9f1dc4d675bf1fb2a8#w#w",
+        "abbr": "w",
+        "groundtruth": "width",
+        "path": "data/AbbExpansion/pseudo_pj1/original/674.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "135083cf05d3ee8c03aa0ccb3eda48fb#ver#ver",
+        "abbr": "ver",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/563.java",
+        "other_candidate": [
+            "version;",
+            "version;",
+            "version;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0376c3a88cc2c7160cce2fba926645ce#acc#accoid",
+        "abbr": "acc",
+        "groundtruth": "access",
+        "path": "data/AbbExpansion/pseudo_pj1/original/441.java",
+        "other_candidate": [
+            "access;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2ce1aa8b48648a472e4b1394b88a0f2e#str#hexstr",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/550.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ee1523ddc60f35f338e1d6eb9c513c29#seg#prevsegtype",
+        "abbr": "seg",
+        "groundtruth": "segment",
+        "path": "data/AbbExpansion/pseudo_pj1/original/785.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#s#sresultwildcard",
+        "abbr": "s",
+        "groundtruth": "single",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "string;single;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "784efdf10632581a8e3f6ab9eb93e0b1#p#super1p",
+        "abbr": "p",
+        "groundtruth": "property",
+        "path": "data/AbbExpansion/pseudo_pj1/original/329.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d3586945de290e4d8e0104cda2aca88c#gbc#gbc",
+        "abbr": "gbc",
+        "groundtruth": "grid bag constraints",
+        "path": "data/AbbExpansion/pseudo_pj1/original/505.java",
+        "other_candidate": [
+            "Grid Bag Constraints;",
+            "Grid Bag Constraints;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "515c55443760a6437fc9567ac620c721#param#paramtype",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/185.java",
+        "other_candidate": [
+            "parameter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "85eecb985a3099b0d819ac447415327e#t#t1",
+        "abbr": "t",
+        "groundtruth": "time",
+        "path": "data/AbbExpansion/pseudo_pj1/original/713.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8e338b305f931325ce379dfcb26652be#ssi#ssi",
+        "abbr": "ssi",
+        "groundtruth": "string search interpolator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/662.java",
+        "other_candidate": [
+            "String Search Interpolator;",
+            "String Search Interpolator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0631d76656e6b3d2633df57eb9fe92c7#rc#tilerc",
+        "abbr": "rc",
+        "groundtruth": "render context",
+        "path": "data/AbbExpansion/pseudo_pj1/original/794.java",
+        "other_candidate": [
+            "Render Context;",
+            "Render Context;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b71fe84e06574dd2e8f9737b1972559a#vars#systemvars",
+        "abbr": "vars",
+        "groundtruth": "variables",
+        "path": "data/AbbExpansion/pseudo_pj1/original/333.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f09a7d8dda79780f5f10c6af0767d61f#bg#typebg",
+        "abbr": "bg",
+        "groundtruth": "button group",
+        "path": "data/AbbExpansion/pseudo_pj1/original/463.java",
+        "other_candidate": [
+            "Button Group;",
+            "Button Group;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ed8d4113b48b04af185ee5149d08f98d#res#res3",
+        "abbr": "res",
+        "groundtruth": "resource",
+        "path": "data/AbbExpansion/pseudo_pj1/original/654.java",
+        "other_candidate": [
+            "resource;",
+            "resource;",
+            "resource;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5d2b3b3b402a7706b2da87ef09286f1a#tw#twconf",
+        "abbr": "tw",
+        "groundtruth": "tree walker",
+        "path": "data/AbbExpansion/pseudo_pj1/original/56.java",
+        "other_candidate": [
+            "Tree Walker;",
+            "Tree Walker;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5d2b3b3b402a7706b2da87ef09286f1a#conf#twconf",
+        "abbr": "conf",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/56.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c4ff52fc23a8b19a0e215bf417ad9859#url#verifiableurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/128.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#tb#tbnodecoldetails",
+        "abbr": "tb",
+        "groundtruth": "tool bar",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#col#tbnodecoldetails",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [
+            "col;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f189f4ea4aa41b1bb46aac5eedd2c2a1#ms#sleepms",
+        "abbr": "ms",
+        "groundtruth": "milliseconds",
+        "path": "data/AbbExpansion/pseudo_pj1/original/199.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "b13c9d72c4c5c4c347dd337d1f11999c#b#b1",
+        "abbr": "b",
+        "groundtruth": "bean",
+        "path": "data/AbbExpansion/pseudo_pj1/original/393.java",
+        "other_candidate": [
+            "bean;",
+            "bean;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0db0692fc5158749629897bcb3b325ca#d#d",
+        "abbr": "d",
+        "groundtruth": "duration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/299.java",
+        "other_candidate": [
+            "duration;",
+            "duration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7a723eef77aa4fc1595f6f41e9f37f55#p#p7",
+        "abbr": "p",
+        "groundtruth": "property",
+        "path": "data/AbbExpansion/pseudo_pj1/original/345.java",
+        "other_candidate": [
+            "prop;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#o#obodyclass",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "87121126256b194511bd5767daea7adf#cm#cm",
+        "abbr": "cm",
+        "groundtruth": "command manager",
+        "path": "data/AbbExpansion/pseudo_pj1/original/308.java",
+        "other_candidate": [
+            "Command Manager;",
+            "Command Manager;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "938bfa66e605480435b6654ea0cfdba5#len#buflen",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/23.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0e5df92b40ed1fc0c9b1a1323eee8b31#res#resscaley",
+        "abbr": "res",
+        "groundtruth": "resolution",
+        "path": "data/AbbExpansion/pseudo_pj1/original/850.java",
+        "other_candidate": [
+            "res;",
+            "res;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "40b244258a490d0ae96b3d4c93342fa6#md#coremd",
+        "abbr": "md",
+        "groundtruth": "modules",
+        "path": "data/AbbExpansion/pseudo_pj1/original/358.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "b84b6cc08123bdfccf5d053bae8cbab9#info#rtinfo",
+        "abbr": "info",
+        "groundtruth": "information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/598.java",
+        "other_candidate": [
+            "information;",
+            "information;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b88f322d9fec72b888c290269afafe7d#idx#idx",
+        "abbr": "idx",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/554.java",
+        "other_candidate": [
+            "index;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "565de7e0d4bf3d5770f7905294174627#comp#srgbcompcm",
+        "abbr": "comp",
+        "groundtruth": "component",
+        "path": "data/AbbExpansion/pseudo_pj1/original/829.java",
+        "other_candidate": [
+            "component;",
+            "component;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "919e41e71e9c7546818818d54294149f#i#i2",
+        "abbr": "i",
+        "groundtruth": "iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/558.java",
+        "other_candidate": [
+            "iterator;",
+            "intersection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3ae4a7b2f395f77ce319240eb582dc4c#procs#procs",
+        "abbr": "procs",
+        "groundtruth": "processors",
+        "path": "data/AbbExpansion/pseudo_pj1/original/599.java",
+        "other_candidate": [
+            "processors[+s];",
+            "processors;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8f59d99038a5ab9b6c1d81a10324df1d#v#v1",
+        "abbr": "v",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/643.java",
+        "other_candidate": [
+            "version;",
+            "version;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6350b40d06cd41eac7316664312f899c#ms#calldelayms",
+        "abbr": "ms",
+        "groundtruth": "millisecond",
+        "path": "data/AbbExpansion/pseudo_pj1/original/155.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "4eb7fc42866ada751a77ec253cbda6c1#d#dcreation",
+        "abbr": "d",
+        "groundtruth": "date",
+        "path": "data/AbbExpansion/pseudo_pj1/original/482.java",
+        "other_candidate": [
+            "date;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "667b164cb4841c30b4faf209b7215bff#b#b",
+        "abbr": "b",
+        "groundtruth": "bean",
+        "path": "data/AbbExpansion/pseudo_pj1/original/297.java",
+        "other_candidate": [
+            "bean;",
+            "bean;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "65f9fce2cdc1a174d19b18a98252770b#clr#sbclr",
+        "abbr": "clr",
+        "groundtruth": "clear",
+        "path": "data/AbbExpansion/pseudo_pj1/original/500.java",
+        "other_candidate": [
+            "clear;"
+        ],
+        "comment_candidate": [
+            "clear;clear;"
+        ]
+    },
+    {
+        "id": "160a003a86d4cff3de63358f2b14ab40#c#c1",
+        "abbr": "c",
+        "groundtruth": "command",
+        "path": "data/AbbExpansion/pseudo_pj1/original/387.java",
+        "other_candidate": [
+            "command;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "74d1e93770a621a743419fdf9bec8d28#ms#timeoutms",
+        "abbr": "ms",
+        "groundtruth": "millisecond",
+        "path": "data/AbbExpansion/pseudo_pj1/original/338.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8a3aa65c45515c2c3018c06ad2d7d1e6#gbc#gbctf",
+        "abbr": "gbc",
+        "groundtruth": "grid bag constraints",
+        "path": "data/AbbExpansion/pseudo_pj1/original/474.java",
+        "other_candidate": [
+            "Grid Bag Constraints;",
+            "Grid Bag Constraints;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dee518c03ed13cc3cf443cc37074bc51#nr#nr",
+        "abbr": "nr",
+        "groundtruth": "notice reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/486.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f8eb9adb29e7db27fb9ec39925666182#conn#connex",
+        "abbr": "conn",
+        "groundtruth": "connect",
+        "path": "data/AbbExpansion/pseudo_pj1/original/624.java",
+        "other_candidate": [
+            "connect;",
+            "connect;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c1306a1e73c7eb77b8c05664599e7871#rect#tnrect",
+        "abbr": "rect",
+        "groundtruth": "rectangle",
+        "path": "data/AbbExpansion/pseudo_pj1/original/752.java",
+        "other_candidate": [
+            "rectangle;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "53f08dcd12a76e36a17dc0163f24b190#param#paramnumbercheckobj",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/92.java",
+        "other_candidate": [
+            "parameter;",
+            "parameter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c08fa3088528bbffcb0b877d76cf9330#md#md",
+        "abbr": "md",
+        "groundtruth": "month day",
+        "path": "data/AbbExpansion/pseudo_pj1/original/409.java",
+        "other_candidate": [
+            "Month Day;",
+            "Month Day;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "64d3d7c19cd163d4cb50280845023012#b#boctets",
+        "abbr": "b",
+        "groundtruth": "byte",
+        "path": "data/AbbExpansion/pseudo_pj1/original/526.java",
+        "other_candidate": [
+            "byte;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9d537b0d9dc54582391d504d330de2d7#att#attnames",
+        "abbr": "att",
+        "groundtruth": "attribute",
+        "path": "data/AbbExpansion/pseudo_pj1/original/72.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "045cbe28014e5eafb428aca3abe13644#md#mapmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/300.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ca89787e7d7ed6398e8148d690915bdd#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/161.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f4a2f8ccae0970c9c4d442270e9a2fc0#tg#tglist",
+        "abbr": "tg",
+        "groundtruth": "thread group",
+        "path": "data/AbbExpansion/pseudo_pj1/original/660.java",
+        "other_candidate": [
+            "Thread Group;",
+            "Thread Group;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3b9521845d2eda62f30cf0ac9ea59465#txt#txttxf",
+        "abbr": "txt",
+        "groundtruth": "text",
+        "path": "data/AbbExpansion/pseudo_pj1/original/814.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6f4fef043288dd3e2e681fc5327d76e6#p#p",
+        "abbr": "p",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/175.java",
+        "other_candidate": [
+            "parameter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "97e43a72c3cb0fd97fe1afc4854d6172#len#vallen",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/772.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c6c08b6bc14d81e9b98745b5919d6992#s#sprovider",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/454.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d4187a96db9391397375bcc3a7e0efa3#args#args",
+        "abbr": "args",
+        "groundtruth": "arguments",
+        "path": "data/AbbExpansion/pseudo_pj1/original/206.java",
+        "other_candidate": [
+            "arguments[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5bcd8b85dab9269ac34ac186798e91be#d#d",
+        "abbr": "d",
+        "groundtruth": "directory",
+        "path": "data/AbbExpansion/pseudo_pj1/original/628.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "4448417b873e7f1ca1afcfd14870cd50#certs#tmpcerts",
+        "abbr": "certs",
+        "groundtruth": "certificate",
+        "path": "data/AbbExpansion/pseudo_pj1/original/448.java",
+        "other_candidate": [
+            "certificates[+s];",
+            "certificates[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4a3d656a3632e751bb1e14c9aa14f666#tfs#tfs",
+        "abbr": "tfs",
+        "groundtruth": "transfer function",
+        "path": "data/AbbExpansion/pseudo_pj1/original/837.java",
+        "other_candidate": [
+            "Transfer Functions[+s];",
+            "Transfer Functions[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "cc4f5cbd71d55c12cd5561318ae56dcd#tmp#tmpfile",
+        "abbr": "tmp",
+        "groundtruth": "temporary",
+        "path": "data/AbbExpansion/pseudo_pj1/original/26.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "7735e1c4c159fccf838d1dd26eee3f28#cmn#cmn",
+        "abbr": "cmn",
+        "groundtruth": "config metadata node",
+        "path": "data/AbbExpansion/pseudo_pj1/original/340.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "e359d9e7be969f076dd6f3c5074c9245#cf#cf",
+        "abbr": "cf",
+        "groundtruth": "certificate factory",
+        "path": "data/AbbExpansion/pseudo_pj1/original/453.java",
+        "other_candidate": [
+            "Certificate Factory;",
+            "certificates;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "919e41e71e9c7546818818d54294149f#res#res2",
+        "abbr": "res",
+        "groundtruth": "Restriction",
+        "path": "data/AbbExpansion/pseudo_pj1/original/558.java",
+        "other_candidate": [
+            "restriction;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "919e41e71e9c7546818818d54294149f#res#res1",
+        "abbr": "res",
+        "groundtruth": "restriction",
+        "path": "data/AbbExpansion/pseudo_pj1/original/558.java",
+        "other_candidate": [
+            "restriction;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e18313a592e0d9e2b78b2385d3179ee2#obj#redundantmodifiercheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/102.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "129dc6afad8da3807fb6a32334700fcc#dep#mgtdep",
+        "abbr": "dep",
+        "groundtruth": "dependency",
+        "path": "data/AbbExpansion/pseudo_pj1/original/603.java",
+        "other_candidate": [
+            "dependency;",
+            "dependency;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6b6bdda7eb50ac074ede6b7ef5cf04f6#ip#sbipaddress",
+        "abbr": "ip",
+        "groundtruth": "internet protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/478.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "4a0243a994a394aa084988acad6f21c5#sec#sec",
+        "abbr": "sec",
+        "groundtruth": "security",
+        "path": "data/AbbExpansion/pseudo_pj1/original/557.java",
+        "other_candidate": [
+            "security;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "aa1e6815263d697010b2871764dde030#vh#vh",
+        "abbr": "vh",
+        "groundtruth": "View Handler",
+        "path": "data/AbbExpansion/pseudo_pj1/original/852.java",
+        "other_candidate": [
+            "View Handler;",
+            "View Handler;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "aa1e6815263d697010b2871764dde030#vb#vb",
+        "abbr": "vb",
+        "groundtruth": "view box",
+        "path": "data/AbbExpansion/pseudo_pj1/original/852.java",
+        "other_candidate": [
+            "view Box;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c3a30f464446c12fe67ec2e207fd5671#t#twidth",
+        "abbr": "t",
+        "groundtruth": "table",
+        "path": "data/AbbExpansion/pseudo_pj1/original/484.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "the;table;",
+            "the;table;"
+        ]
+    },
+    {
+        "id": "2ce1aa8b48648a472e4b1394b88a0f2e#ch#ch",
+        "abbr": "ch",
+        "groundtruth": "char",
+        "path": "data/AbbExpansion/pseudo_pj1/original/550.java",
+        "other_candidate": [
+            "char;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b4d10e511425d3e58e795d30abf85be6#sys#sysfile",
+        "abbr": "sys",
+        "groundtruth": "system",
+        "path": "data/AbbExpansion/pseudo_pj1/original/616.java",
+        "other_candidate": [
+            "system;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "bdbf544235b6f17906afd91b08e2e11b#f#f2",
+        "abbr": "f",
+        "groundtruth": "file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/560.java",
+        "other_candidate": [
+            "file;",
+            "from;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "110ee5b0a6b4ab373d28b3ad14b50c11#func#func",
+        "abbr": "func",
+        "groundtruth": "function",
+        "path": "data/AbbExpansion/pseudo_pj1/original/218.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "34a0ce976397dc0bd38000783124cce5#v#vkeypairaliases",
+        "abbr": "v",
+        "groundtruth": "vector",
+        "path": "data/AbbExpansion/pseudo_pj1/original/431.java",
+        "other_candidate": [
+            "vector;",
+            "vector;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6934259c17357f2ed9aceb306d22834a#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/607.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "5119d0937ed9935663fd6e67a0834058#attr#attr",
+        "abbr": "attr",
+        "groundtruth": "attribute",
+        "path": "data/AbbExpansion/pseudo_pj1/original/701.java",
+        "other_candidate": [
+            "attributes;",
+            "attributes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "56058c16367ef1bce6ed0b0abc717672#pm#pmlen",
+        "abbr": "pm",
+        "groundtruth": "policy mapping",
+        "path": "data/AbbExpansion/pseudo_pj1/original/437.java",
+        "other_candidate": [
+            "policy Mapping;",
+            "Policy Mappings;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "def1180213d926eec312ebfa4c1c38fe#info#ltinfo",
+        "abbr": "info",
+        "groundtruth": "information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/435.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "60bba43c8730635f74be74c80ebbf4d1#dist#distmgmt",
+        "abbr": "dist",
+        "groundtruth": "distribution",
+        "path": "data/AbbExpansion/pseudo_pj1/original/570.java",
+        "other_candidate": [
+            "distribution;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "60bba43c8730635f74be74c80ebbf4d1#mgmt#distmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/570.java",
+        "other_candidate": [
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "665e63d9fdef8efd9a7f945ef33bf4a6#prov#bcprov",
+        "abbr": "prov",
+        "groundtruth": "provider",
+        "path": "data/AbbExpansion/pseudo_pj1/original/466.java",
+        "other_candidate": [
+            "provider;",
+            "provider;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3d493e0407d283f33ce88501cdfee97b#sm#sm",
+        "abbr": "sm",
+        "groundtruth": "sample model",
+        "path": "data/AbbExpansion/pseudo_pj1/original/825.java",
+        "other_candidate": [
+            "Sample Model;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3b9521845d2eda62f30cf0ac9ea59465#gc#textgc",
+        "abbr": "gc",
+        "groundtruth": "graphic context",
+        "path": "data/AbbExpansion/pseudo_pj1/original/814.java",
+        "other_candidate": [
+            "Graphic Context;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e0634851f66268b0e879a3fe4c066288#dim#dim",
+        "abbr": "dim",
+        "groundtruth": "Dimension",
+        "path": "data/AbbExpansion/pseudo_pj1/original/712.java",
+        "other_candidate": [
+            "dimension;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7e58ca04448f12caacb3c42ee3392318#c#c",
+        "abbr": "c",
+        "groundtruth": "code",
+        "path": "data/AbbExpansion/pseudo_pj1/original/748.java",
+        "other_candidate": [
+            "code;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "95159485aec60a464fc30eac821224b3#c#c2",
+        "abbr": "c",
+        "groundtruth": "command",
+        "path": "data/AbbExpansion/pseudo_pj1/original/408.java",
+        "other_candidate": [
+            "command;",
+            "command;",
+            "command;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2e615b37d97c0fc4bf5e325303be211b#td#td",
+        "abbr": "td",
+        "groundtruth": "thread death",
+        "path": "data/AbbExpansion/pseudo_pj1/original/803.java",
+        "other_candidate": [
+            "Thread Death;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "197cdd611c07d9d7d1b7b560f4226c79#r#rdeps",
+        "abbr": "r",
+        "groundtruth": "result",
+        "path": "data/AbbExpansion/pseudo_pj1/original/670.java",
+        "other_candidate": [
+            "result;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mresponseclass",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#s#sbodywildcard",
+        "abbr": "s",
+        "groundtruth": "single",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "string;single;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c1cefc192e158faea5224b7aa87a983d#attr#currentattr",
+        "abbr": "attr",
+        "groundtruth": "attributes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/679.java",
+        "other_candidate": [
+            "attributes;",
+            "attributes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "039347ec2ec43a0bc3e5958a69260bab#str#strtok",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/434.java",
+        "other_candidate": [
+            "string;",
+            "string;",
+            "separator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "039347ec2ec43a0bc3e5958a69260bab#tok#strtok",
+        "abbr": "tok",
+        "groundtruth": "tokenizer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/434.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "7140d51cc695bd79740ddd838e03e506#o#o",
+        "abbr": "o",
+        "groundtruth": "other",
+        "path": "data/AbbExpansion/pseudo_pj1/original/196.java",
+        "other_candidate": [
+            "other;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3a7fef33f8f8392ba0299d0b85e15033#s#s",
+        "abbr": "s",
+        "groundtruth": "selector",
+        "path": "data/AbbExpansion/pseudo_pj1/original/833.java",
+        "other_candidate": [
+            "selector;",
+            "selector;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "85550d7cb08b34584043b29f2d383df5#obj#parameternamecheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/60.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "938bfa66e605480435b6654ea0cfdba5#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/23.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9ceb2f87577e8fcaf8c01a97204a5c0c#evt#wheelevt",
+        "abbr": "evt",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/802.java",
+        "other_candidate": [
+            "event;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "02fd2c7b672321087db9ceca4c69c3f0#p#p",
+        "abbr": "p",
+        "groundtruth": "profile",
+        "path": "data/AbbExpansion/pseudo_pj1/original/642.java",
+        "other_candidate": [
+            "profile;",
+            "profile;",
+            "plugin;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b7c1920155108c6f529981de37ade4e7#multi#multithreadmodesettings",
+        "abbr": "multi",
+        "groundtruth": "multiple",
+        "path": "data/AbbExpansion/pseudo_pj1/original/6.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6bf6f17f64225129523307cd3b43c939#param#singleparam",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/20.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "9676cc2d30978f61196e34d68e67f3a2#dep#parentdepmgmt",
+        "abbr": "dep",
+        "groundtruth": "Dependency",
+        "path": "data/AbbExpansion/pseudo_pj1/original/627.java",
+        "other_candidate": [
+            "dependency;",
+            "dependency;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0d41e4f0593a8a8e4603fd4e27cd61b0#su#su3",
+        "abbr": "su",
+        "groundtruth": "sup",
+        "path": "data/AbbExpansion/pseudo_pj1/original/318.java",
+        "other_candidate": [
+            "sup;",
+            "sup;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0d41e4f0593a8a8e4603fd4e27cd61b0#su#su4",
+        "abbr": "su",
+        "groundtruth": "sup",
+        "path": "data/AbbExpansion/pseudo_pj1/original/318.java",
+        "other_candidate": [
+            "sup;",
+            "sup;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0d41e4f0593a8a8e4603fd4e27cd61b0#su#su1",
+        "abbr": "su",
+        "groundtruth": "sup",
+        "path": "data/AbbExpansion/pseudo_pj1/original/318.java",
+        "other_candidate": [
+            "sup;",
+            "sup;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0d41e4f0593a8a8e4603fd4e27cd61b0#su#su2",
+        "abbr": "su",
+        "groundtruth": "sup",
+        "path": "data/AbbExpansion/pseudo_pj1/original/318.java",
+        "other_candidate": [
+            "sup;",
+            "sup;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "91e0925ae4c9a9e15296f8cc1ae9fdce#app#app",
+        "abbr": "app",
+        "groundtruth": "application",
+        "path": "data/AbbExpansion/pseudo_pj1/original/382.java",
+        "other_candidate": [
+            "application;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "230be05e1a7171e6ff8dfe63c428e88a#url#resourceurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/547.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f1e6087ea6b4d40d3f7eb2710f8dc09d#md#listmd2",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/394.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a853234897f61e624cbf3edc95bce8dd#ctx#authctx",
+        "abbr": "ctx",
+        "groundtruth": "context",
+        "path": "data/AbbExpansion/pseudo_pj1/original/552.java",
+        "other_candidate": [
+            "context;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "63d49db8b6bdc9e299d1a5328001c2de#p#p",
+        "abbr": "p",
+        "groundtruth": "Properties",
+        "path": "data/AbbExpansion/pseudo_pj1/original/656.java",
+        "other_candidate": [
+            "properties;",
+            "properties;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a4ce52af63b4614d5fe0bc0972d2c108#idx#executionidx",
+        "abbr": "idx",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/667.java",
+        "other_candidate": [
+            "index;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5cb09d55709ad125b8fbbc45acc93e8c#pc#urlpc",
+        "abbr": "pc",
+        "groundtruth": "permission collection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/779.java",
+        "other_candidate": [
+            "Permission Collection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "edb104ee7c6c21de2bee72b0ae281799#num#weightnum",
+        "abbr": "num",
+        "groundtruth": "number",
+        "path": "data/AbbExpansion/pseudo_pj1/original/826.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6b3098309cbd5876ff1c0cc1856b67fe#str#str",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/589.java",
+        "other_candidate": [
+            "string;",
+            "string;string;",
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "12f6adc5d3c8ac9c82ddd32f200608c6#e#e",
+        "abbr": "e",
+        "groundtruth": "exception",
+        "path": "data/AbbExpansion/pseudo_pj1/original/390.java",
+        "other_candidate": [
+            "exception;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1e8bed6f239ce61a0227a6032fbfa609#f#fy2t2",
+        "abbr": "f",
+        "groundtruth": "file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/682.java",
+        "other_candidate": [
+            "file;",
+            "file;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "80c6fef33e7afd7a2fe07a68c1cbce29#p#pwriter",
+        "abbr": "p",
+        "groundtruth": "print",
+        "path": "data/AbbExpansion/pseudo_pj1/original/572.java",
+        "other_candidate": [
+            "print;",
+            "print;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#o#obodygeneric",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "12a2a81ecd3ee9e73e09d66f1adc0079#param#paramconfig",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/586.java",
+        "other_candidate": [
+            "parameter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "12a2a81ecd3ee9e73e09d66f1adc0079#config#paramconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/586.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "57f021f45f3fd099787fe9665a57559a#ref#parameterannotationsref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/166.java",
+        "other_candidate": [
+            "reference;",
+            "reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dede66af4d162f4de28bf4b7c0ee320d#config#config",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/137.java",
+        "other_candidate": [
+            "configuration;",
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "546151e5e7172f3b39399add27778e6c#pr#pr",
+        "abbr": "pr",
+        "groundtruth": "properties",
+        "path": "data/AbbExpansion/pseudo_pj1/original/7.java",
+        "other_candidate": [
+            "properties;",
+            "properties;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "457e71f8c489cad011b1f5ba0f6e89cf#str#str_value",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/675.java",
+        "other_candidate": [
+            "string;",
+            "string;",
+            "stream;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0cbaa5539fe998078268ea117d9311ae#dist#parentdistmgmt",
+        "abbr": "dist",
+        "groundtruth": "distribution",
+        "path": "data/AbbExpansion/pseudo_pj1/original/650.java",
+        "other_candidate": [
+            "distribution;",
+            "distribution;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0cbaa5539fe998078268ea117d9311ae#mgmt#parentdistmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/650.java",
+        "other_candidate": [
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5137d64adba1099560b88f4e5827d5b8#msg#msg",
+        "abbr": "msg",
+        "groundtruth": "message",
+        "path": "data/AbbExpansion/pseudo_pj1/original/515.java",
+        "other_candidate": [
+            "message;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "546f3956fda449948305c1b86fd465ee#v#v2",
+        "abbr": "v",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/666.java",
+        "other_candidate": [
+            "version;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b01c1d6cf842df9796f387a0bdb415dd#json#json",
+        "abbr": "json",
+        "groundtruth": "javascript object notation",
+        "path": "data/AbbExpansion/pseudo_pj1/original/250.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "3524d05648b460b70e5928ea2372764c#obj#objnode",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/65.java",
+        "other_candidate": [
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d7f50f9517daba2fe1f38ae306a5061f#b#b2",
+        "abbr": "b",
+        "groundtruth": "bean",
+        "path": "data/AbbExpansion/pseudo_pj1/original/379.java",
+        "other_candidate": [
+            "bean;",
+            "bean;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "da347f2c0403e05db0a1071b12009c8d#crit#critexts",
+        "abbr": "crit",
+        "groundtruth": "critical",
+        "path": "data/AbbExpansion/pseudo_pj1/original/507.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "da347f2c0403e05db0a1071b12009c8d#exts#critexts",
+        "abbr": "exts",
+        "groundtruth": "extensions",
+        "path": "data/AbbExpansion/pseudo_pj1/original/507.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "extensions;"
+        ]
+    },
+    {
+        "id": "c3a30f464446c12fe67ec2e207fd5671#w#w",
+        "abbr": "w",
+        "groundtruth": "width",
+        "path": "data/AbbExpansion/pseudo_pj1/original/484.java",
+        "other_candidate": [
+            "width;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "afe8bdc00e9c99ce78c0028fdea52c07#p#p1",
+        "abbr": "p",
+        "groundtruth": "percent",
+        "path": "data/AbbExpansion/pseudo_pj1/original/335.java",
+        "other_candidate": [
+            "percent;",
+            "percent;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4aaca7465877c03d188eb0d6ea9c4724#md#sublistmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/307.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fbf5e02ea28738b2ff0334d7f94ba9eb#k#k1",
+        "abbr": "k",
+        "groundtruth": "key",
+        "path": "data/AbbExpansion/pseudo_pj1/original/637.java",
+        "other_candidate": [
+            "key;",
+            "key;",
+            "key;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fbf5e02ea28738b2ff0334d7f94ba9eb#rr#rr2",
+        "abbr": "rr",
+        "groundtruth": "repository",
+        "path": "data/AbbExpansion/pseudo_pj1/original/637.java",
+        "other_candidate": [
+            "repository;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fbf5e02ea28738b2ff0334d7f94ba9eb#rr#rr1",
+        "abbr": "rr",
+        "groundtruth": "repository",
+        "path": "data/AbbExpansion/pseudo_pj1/original/637.java",
+        "other_candidate": [
+            "repository;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "47d94979d7bec87e0447ef17260940a6#aki#aki",
+        "abbr": "aki",
+        "groundtruth": "authority key identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/493.java",
+        "other_candidate": [
+            "Authority Key Identifier;",
+            "Authority Key Identifier;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "be866cb6585aaf7a2413f49527cb4ad1#f#f3",
+        "abbr": "f",
+        "groundtruth": "filter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/625.java",
+        "other_candidate": [
+            "filter;",
+            "filter;",
+            "filter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "339dc328671ea8736f0bb9bcaf633678#r#r2",
+        "abbr": "r",
+        "groundtruth": "runtime",
+        "path": "data/AbbExpansion/pseudo_pj1/original/371.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "58985d07be0af1cd2d599b238d3b0596#ss#ss",
+        "abbr": "ss",
+        "groundtruth": "ssl socket",
+        "path": "data/AbbExpansion/pseudo_pj1/original/427.java",
+        "other_candidate": [
+            "sockets[+s];",
+            "sockets[+s];sockets[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a6d5d059201d5eb3cb7eccff02028b57#sys#sysvalue",
+        "abbr": "sys",
+        "groundtruth": "system",
+        "path": "data/AbbExpansion/pseudo_pj1/original/619.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "system;"
+        ]
+    },
+    {
+        "id": "206cfcd300b7f9e30d5b5d03dc600973#msg#msgkey",
+        "abbr": "msg",
+        "groundtruth": "message",
+        "path": "data/AbbExpansion/pseudo_pj1/original/73.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "1ce40d735cee80347b999978e285c888#obj#modifierordercheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/62.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mbodygeneric",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ea1a86a25a717a9228c5417dc2380703#pos#prevpos",
+        "abbr": "pos",
+        "groundtruth": "position",
+        "path": "data/AbbExpansion/pseudo_pj1/original/809.java",
+        "other_candidate": [
+            "points[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1fb8640e867ed219d74158361234137f#col#aliascol",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/525.java",
+        "other_candidate": [
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "41d29750f09a00bfbb0061966ea55258#m#m1md",
+        "abbr": "m",
+        "groundtruth": "module",
+        "path": "data/AbbExpansion/pseudo_pj1/original/353.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8b586bc7455bc7ffc1f1c78385e7d79b#http#http",
+        "abbr": "http",
+        "groundtruth": "hyper text transfer protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/180.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mresponsewildcard",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3524d05648b460b70e5928ea2372764c#xpath#methodsxpath",
+        "abbr": "xpath",
+        "groundtruth": "xml path language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/65.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0b18a86ca2eaa164b360e1056aa43617#ri#ri",
+        "abbr": "ri",
+        "groundtruth": "rendered image",
+        "path": "data/AbbExpansion/pseudo_pj1/original/804.java",
+        "other_candidate": [
+            "Rendered Image;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d305d0f985f98c5eaf2b994f9d6f8f28#cn#sissuercn",
+        "abbr": "cn",
+        "groundtruth": "common name",
+        "path": "data/AbbExpansion/pseudo_pj1/original/521.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mresultclass",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "891d5dd019bf591f06ea150a5de17a95#s#s",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/169.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "30c6053dc4b8fba76abdb3455564455f#prov#prov",
+        "abbr": "prov",
+        "groundtruth": "provider",
+        "path": "data/AbbExpansion/pseudo_pj1/original/485.java",
+        "other_candidate": [
+            "provider;",
+            "provider;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9f6eb80a19d07c6c0cde0830c0782737#desc#patterndesc",
+        "abbr": "desc",
+        "groundtruth": "descriptor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/834.java",
+        "other_candidate": [
+            "descriptor;",
+            "descriptor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ef1d922549eb43eedfd146d8affa9334#md#rootmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/384.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dc4e92214654dceebc158f3a08dbbec3#s#s2",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/366.java",
+        "other_candidate": [
+            "string;",
+            "string;",
+            "services;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "891d5dd019bf591f06ea150a5de17a95#ref#ref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/169.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0dcdcb3dd9d33c5b5cfa276f9d151a51#src#src",
+        "abbr": "src",
+        "groundtruth": "source",
+        "path": "data/AbbExpansion/pseudo_pj1/original/553.java",
+        "other_candidate": [
+            "source;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "da347f2c0403e05db0a1071b12009c8d#crit#noncritexts",
+        "abbr": "crit",
+        "groundtruth": "critical",
+        "path": "data/AbbExpansion/pseudo_pj1/original/507.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "da347f2c0403e05db0a1071b12009c8d#exts#noncritexts",
+        "abbr": "exts",
+        "groundtruth": "extensions",
+        "path": "data/AbbExpansion/pseudo_pj1/original/507.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#f#fresultwildcard",
+        "abbr": "f",
+        "groundtruth": "flowable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#s#sbodygeneric",
+        "abbr": "s",
+        "groundtruth": "single",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "string;single;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7812a555bec54730e8ef68fdb361ff6a#bc#bc",
+        "abbr": "bc",
+        "groundtruth": "basic constraints",
+        "path": "data/AbbExpansion/pseudo_pj1/original/458.java",
+        "other_candidate": [
+            "Basic Constraints;",
+            "Basic Constraints;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "653ae100006ba6cc01d2b411d24da1f8#ctx#actualctx",
+        "abbr": "ctx",
+        "groundtruth": "context",
+        "path": "data/AbbExpansion/pseudo_pj1/original/142.java",
+        "other_candidate": [
+            "context;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "50d65fff8deea43f8bb7e31857afe4a6#c#c",
+        "abbr": "c",
+        "groundtruth": "collect",
+        "path": "data/AbbExpansion/pseudo_pj1/original/344.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "562c67a32668ddc70b37ec818d3c901e#val#val",
+        "abbr": "val",
+        "groundtruth": "value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/425.java",
+        "other_candidate": [
+            "value;",
+            "value;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3eedbb64bce3bc0b205122d3aa6dc6e8#ret#retval",
+        "abbr": "ret",
+        "groundtruth": "return",
+        "path": "data/AbbExpansion/pseudo_pj1/original/222.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "3eedbb64bce3bc0b205122d3aa6dc6e8#val#retval",
+        "abbr": "val",
+        "groundtruth": "value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/222.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f91334ec10fde96d6426b84ce3a4efd5#ev#ev3",
+        "abbr": "ev",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/59.java",
+        "other_candidate": [
+            "event;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "acafc1b04f31fcc4fdef7d36703d55cb#len#strlen",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/461.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "341947c8e914994a18626571ee97dc4a#sw#sw",
+        "abbr": "sw",
+        "groundtruth": "string writer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/784.java",
+        "other_candidate": [
+            "String Writer;",
+            "String Writer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6a9df6e2c838b50716cfb0a3b0ae3373#pc#pc",
+        "abbr": "pc",
+        "groundtruth": "plexus configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/582.java",
+        "other_candidate": [
+            "Plexus Configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a7e3f7212d50f511649381d289f1d90a#req#req",
+        "abbr": "req",
+        "groundtruth": "request",
+        "path": "data/AbbExpansion/pseudo_pj1/original/575.java",
+        "other_candidate": [
+            "request;",
+            "request;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "bf2982a342775940cbd63ad25df30b74#delim#versiondelim",
+        "abbr": "delim",
+        "groundtruth": "delimiter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/822.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0df67ed3e2b511dd6d246055aa089499#p#p11s",
+        "abbr": "p",
+        "groundtruth": "provider",
+        "path": "data/AbbExpansion/pseudo_pj1/original/436.java",
+        "other_candidate": [
+            "providers;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#tb#tbnodecol",
+        "abbr": "tb",
+        "groundtruth": "tool bar",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#col#tbnodecol",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "ab8295eb753eadf4fbf7aecb182b6ff2#val#val",
+        "abbr": "val",
+        "groundtruth": "value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/561.java",
+        "other_candidate": [
+            "value;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "97218c7641f5d810f2d692d87d6f46fb#t#t1",
+        "abbr": "t",
+        "groundtruth": "time",
+        "path": "data/AbbExpansion/pseudo_pj1/original/401.java",
+        "other_candidate": [
+            "time;",
+            "test#timeout;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "97218c7641f5d810f2d692d87d6f46fb#t#t0",
+        "abbr": "t",
+        "groundtruth": "time",
+        "path": "data/AbbExpansion/pseudo_pj1/original/401.java",
+        "other_candidate": [
+            "time;",
+            "test#timeout;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2f0a3f80bbf78d2b4ccb2280a3dfe159#aa#aa2",
+        "abbr": "aa",
+        "groundtruth": "adapter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/140.java",
+        "other_candidate": [
+            "Audit Adapter;",
+            "Audit Adapter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7a7ba33b203a4072f6ccf6b0b59b1d66#args#args",
+        "abbr": "args",
+        "groundtruth": "arguments",
+        "path": "data/AbbExpansion/pseudo_pj1/original/709.java",
+        "other_candidate": [
+            "arguments[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ec7e002fce959be843df0276cd7a2394#f#f2",
+        "abbr": "f",
+        "groundtruth": "filter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/148.java",
+        "other_candidate": [
+            "file#filter;",
+            "file#filter;",
+            "file#filter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "079d93f7f361f6109648b596df1a9cbb#c#c",
+        "abbr": "c",
+        "groundtruth": "char",
+        "path": "data/AbbExpansion/pseudo_pj1/original/365.java",
+        "other_candidate": [
+            "char;",
+            "char;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6f53dd045f8ec2504726d382de3ad8e8#d#d3",
+        "abbr": "d",
+        "groundtruth": "duration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/336.java",
+        "other_candidate": [
+            "duration;",
+            "duration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6f53dd045f8ec2504726d382de3ad8e8#d#d1",
+        "abbr": "d",
+        "groundtruth": "duration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/336.java",
+        "other_candidate": [
+            "duration;",
+            "duration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "29878a214db44cf911f7f58525128093#dir#dir",
+        "abbr": "dir",
+        "groundtruth": "directory",
+        "path": "data/AbbExpansion/pseudo_pj1/original/717.java",
+        "other_candidate": [
+            "directory;"
+        ],
+        "comment_candidate": [
+            "directory;directory;"
+        ]
+    },
+    {
+        "id": "40b244258a490d0ae96b3d4c93342fa6#md#md",
+        "abbr": "md",
+        "groundtruth": "modules",
+        "path": "data/AbbExpansion/pseudo_pj1/original/358.java",
+        "other_candidate": [
+            "modules#metadata;",
+            "modules#metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d305d0f985f98c5eaf2b994f9d6f8f28#cn#ssubjectcn",
+        "abbr": "cn",
+        "groundtruth": "common name",
+        "path": "data/AbbExpansion/pseudo_pj1/original/521.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "410944ab1e71d9cbf3e3888f5aa1bebf#ip#ip",
+        "abbr": "ip",
+        "groundtruth": "internet protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/177.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "5c556953f35443aa6f12989123883688#p#pchild",
+        "abbr": "p",
+        "groundtruth": "plugin",
+        "path": "data/AbbExpansion/pseudo_pj1/original/621.java",
+        "other_candidate": [
+            "plugin;",
+            "plugin#plugin;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "766c5e33d6773bd6190df489292eb5d2#tms#tms",
+        "abbr": "tms",
+        "groundtruth": "transformations",
+        "path": "data/AbbExpansion/pseudo_pj1/original/640.java",
+        "other_candidate": [
+            "Transformation Managers[+s];"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "980dd0a72b21de6bb7335ec2bc298a93#lang#lang",
+        "abbr": "lang",
+        "groundtruth": "language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/740.java",
+        "other_candidate": [
+            "language;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6a9df6e2c838b50716cfb0a3b0ae3373#cr#cr",
+        "abbr": "cr",
+        "groundtruth": "component requirement",
+        "path": "data/AbbExpansion/pseudo_pj1/original/582.java",
+        "other_candidate": [
+            "Component Requirement;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ef1d922549eb43eedfd146d8affa9334#md#mapvaluemd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/384.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a550456b08c93c6952127756e5eddb13#evt#uievt",
+        "abbr": "evt",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/765.java",
+        "other_candidate": [
+            "event;",
+            "event;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "906e9e43ed28fd05b91e29da3e596c17#cmp#cmp",
+        "abbr": "cmp",
+        "groundtruth": "compare",
+        "path": "data/AbbExpansion/pseudo_pj1/original/301.java",
+        "other_candidate": [
+            "compare;",
+            "compare;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e7275308448f33d06540f468235d1a63#m#subm",
+        "abbr": "m",
+        "groundtruth": "map",
+        "path": "data/AbbExpansion/pseudo_pj1/original/325.java",
+        "other_candidate": [
+            "map;",
+            "map;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1b48cd322046b63a12a9e22367383e3c#ste#ste",
+        "abbr": "ste",
+        "groundtruth": "stack trace element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/498.java",
+        "other_candidate": [
+            "Stack Trace Element;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ea3c92dbcd13f016dc576f3c7f9837bb#url#surl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/440.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "474ffb43c780db68526cdef66661eaff#fos#fos",
+        "abbr": "fos",
+        "groundtruth": "file output stream",
+        "path": "data/AbbExpansion/pseudo_pj1/original/503.java",
+        "other_candidate": [
+            "File Output Stream;",
+            "File Output Stream;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e4664465231fc104a0c8b4230052febc#h#h",
+        "abbr": "h",
+        "groundtruth": "hour",
+        "path": "data/AbbExpansion/pseudo_pj1/original/581.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "565de7e0d4bf3d5770f7905294174627#img#srcimg",
+        "abbr": "img",
+        "groundtruth": "image",
+        "path": "data/AbbExpansion/pseudo_pj1/original/829.java",
+        "other_candidate": [
+            "image;",
+            "image;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "eb494a4e06e8bec2559fbb1c6862e1f0#inst#inst",
+        "abbr": "inst",
+        "groundtruth": "Instantiator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/406.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "acf6a2007558d4bdeab0bb35e6d05f8c#ze#ze",
+        "abbr": "ze",
+        "groundtruth": "zip entry",
+        "path": "data/AbbExpansion/pseudo_pj1/original/763.java",
+        "other_candidate": [
+            "Zip Entry;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ae3443f36b7d9343b215f94d04676123#loc#definingloc2",
+        "abbr": "loc",
+        "groundtruth": "location",
+        "path": "data/AbbExpansion/pseudo_pj1/original/275.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "ae3443f36b7d9343b215f94d04676123#loc#definingloc1",
+        "abbr": "loc",
+        "groundtruth": "location",
+        "path": "data/AbbExpansion/pseudo_pj1/original/275.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "7213da3bccd0cc579608aedd607d062d#p#p",
+        "abbr": "p",
+        "groundtruth": "period",
+        "path": "data/AbbExpansion/pseudo_pj1/original/350.java",
+        "other_candidate": [
+            "period;",
+            "period;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d6a5b5021ace9aaf638aff1d1b5ce8f5#se#se1",
+        "abbr": "se",
+        "groundtruth": "suppress element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/66.java",
+        "other_candidate": [
+            "suppress;",
+            "suppress;",
+            "suppression;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d6a5b5021ace9aaf638aff1d1b5ce8f5#se#se2",
+        "abbr": "se",
+        "groundtruth": "suppress element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/66.java",
+        "other_candidate": [
+            "suppress;",
+            "suppress;",
+            "suppression;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d6a5b5021ace9aaf638aff1d1b5ce8f5#se#se3",
+        "abbr": "se",
+        "groundtruth": "suppress element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/66.java",
+        "other_candidate": [
+            "suppress;",
+            "suppress;",
+            "suppression;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d6a5b5021ace9aaf638aff1d1b5ce8f5#se#se4",
+        "abbr": "se",
+        "groundtruth": "suppress element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/66.java",
+        "other_candidate": [
+            "suppress;",
+            "suppress;",
+            "suppression;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d6a5b5021ace9aaf638aff1d1b5ce8f5#se#se0",
+        "abbr": "se",
+        "groundtruth": "suppress element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/66.java",
+        "other_candidate": [
+            "suppress;",
+            "suppress;",
+            "suppression;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a4fabf8c640aa42f29a94f483a3b66e8#h#tmph",
+        "abbr": "h",
+        "groundtruth": "height",
+        "path": "data/AbbExpansion/pseudo_pj1/original/801.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "91b3a5baa57fde5a4662381046f8cafb#i#i",
+        "abbr": "i",
+        "groundtruth": "integer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/212.java",
+        "other_candidate": [
+            "integer;",
+            "integer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "58985d07be0af1cd2d599b238d3b0596#tm#tm",
+        "abbr": "tm",
+        "groundtruth": "trust manager",
+        "path": "data/AbbExpansion/pseudo_pj1/original/427.java",
+        "other_candidate": [
+            "Trust Manager;",
+            "Trust Manager;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ff6227e2880e9a0e74005a88cb8dccd5#sb#sb",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/523.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7cd184c4c141a730fab8da36a9b34f00#i#i",
+        "abbr": "i",
+        "groundtruth": "index",
+        "path": "data/AbbExpansion/pseudo_pj1/original/331.java",
+        "other_candidate": [],
+        "comment_candidate": [
+            "into;index;is;in;into;",
+            "into;index;is;in;into;"
+        ]
+    },
+    {
+        "id": "00e2ef9ea43d13b6969a1650d105fd43#tfe#tfe",
+        "abbr": "tfe",
+        "groundtruth": "transfer failed exception",
+        "path": "data/AbbExpansion/pseudo_pj1/original/578.java",
+        "other_candidate": [
+            "Transfer Failed Exception;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "cbeb32d23b43ad84af85b0a5d65bd9e0#ksq#ksq",
+        "abbr": "ksq",
+        "groundtruth": "key storage quality",
+        "path": "data/AbbExpansion/pseudo_pj1/original/429.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "b64662bf868c4924b6fa28f36947cef6#i#i",
+        "abbr": "i",
+        "groundtruth": "line",
+        "path": "data/AbbExpansion/pseudo_pj1/original/149.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mbodyclass",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b0a64171cf83eb0f9c747146fe730c34#pos#overlineposstr",
+        "abbr": "pos",
+        "groundtruth": "position",
+        "path": "data/AbbExpansion/pseudo_pj1/original/832.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "22cecaae72678281a398533ea33e1f6c#txt#txtbridge",
+        "abbr": "txt",
+        "groundtruth": "text",
+        "path": "data/AbbExpansion/pseudo_pj1/original/767.java",
+        "other_candidate": [
+            "text;",
+            "text;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c6c08b6bc14d81e9b98745b5919d6992#alg#skeyalg",
+        "abbr": "alg",
+        "groundtruth": "algorithm",
+        "path": "data/AbbExpansion/pseudo_pj1/original/454.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "11cd121fed83deaeedd009ef9c598663#url#linkurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/168.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "312baa35be2ec67d55a49e228beaec8c#nanos#startnanos",
+        "abbr": "nanos",
+        "groundtruth": "nanoseconds",
+        "path": "data/AbbExpansion/pseudo_pj1/original/182.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8ef4a98ccfabfa3d295e8060f59f845e#tr#tr",
+        "abbr": "tr",
+        "groundtruth": "transformer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/708.java",
+        "other_candidate": [
+            "transformer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b36bd119831e86cd66276867e6ef9752#cls#prevcls",
+        "abbr": "cls",
+        "groundtruth": "class",
+        "path": "data/AbbExpansion/pseudo_pj1/original/775.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "96c535c7f23d591e083e4560bbe81f18#url#tvdburl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/725.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "cb0790b5f09745a5114a596680d711c5#reqs#metadatareqs",
+        "abbr": "reqs",
+        "groundtruth": "request",
+        "path": "data/AbbExpansion/pseudo_pj1/original/620.java",
+        "other_candidate": [
+            "requests[+s];",
+            "request;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c5a7a6ee158a867bbb73c1942b63f890#sz#cleanedsz",
+        "abbr": "sz",
+        "groundtruth": "size",
+        "path": "data/AbbExpansion/pseudo_pj1/original/652.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "57c660c7d81d7e37dc987a4cd478f59d#e#e",
+        "abbr": "e",
+        "groundtruth": "exception",
+        "path": "data/AbbExpansion/pseudo_pj1/original/614.java",
+        "other_candidate": [
+            "exception;",
+            "exception;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "62f270b7b4abfde10fda25ac944a3cad#info#infoitem",
+        "abbr": "info",
+        "groundtruth": "information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/272.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "07ccb1b5aa25a892330bb6cb0074ca57#config#secondcheckerconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/125.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4eb7fc42866ada751a77ec253cbda6c1#s#svalidto",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/482.java",
+        "other_candidate": [
+            "string;",
+            "store;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ad019340e9e390e0080581851ab28634#str#xstr",
+        "abbr": "str",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/816.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "453de6141ec1dfbfe5b595fa836a7ee1#st#st",
+        "abbr": "st",
+        "groundtruth": "signature type",
+        "path": "data/AbbExpansion/pseudo_pj1/original/422.java",
+        "other_candidate": [
+            "Signature Type;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fc6f33e32e3ac39d2bd76ade6cc5a5fd#p#p",
+        "abbr": "p",
+        "groundtruth": "point",
+        "path": "data/AbbExpansion/pseudo_pj1/original/733.java",
+        "other_candidate": [
+            "point;",
+            "point;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f49ab1a570fa45be2fc4d28a48c5bbce#ac#ac",
+        "abbr": "ac",
+        "groundtruth": "action",
+        "path": "data/AbbExpansion/pseudo_pj1/original/293.java",
+        "other_candidate": [
+            "action;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c47e024f850c0bc0522f462261365a8d#jvm#jtfjvmtotalmemory",
+        "abbr": "jvm",
+        "groundtruth": "java virtual machine",
+        "path": "data/AbbExpansion/pseudo_pj1/original/433.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#o#oresponseclass",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#m#mbodywildcard",
+        "abbr": "m",
+        "groundtruth": "maybe",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "maybe;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "104e4ae098370b48b116845b7b245607#s#s",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/766.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "545679497bf136d82d22709a0ad6adb6#obj#typeparameternamecheckobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/19.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f6c798b3b63db82143dd30072cc905fe#t#t2",
+        "abbr": "t",
+        "groundtruth": "time",
+        "path": "data/AbbExpansion/pseudo_pj1/original/707.java",
+        "other_candidate": [
+            "trim;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e23babff6fee7582200eefbf85f40e63#itr#itrchecks",
+        "abbr": "itr",
+        "groundtruth": "iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/130.java",
+        "other_candidate": [
+            "iterator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c3a30f464446c12fe67ec2e207fd5671#sp#spmodel",
+        "abbr": "sp",
+        "groundtruth": "system properties",
+        "path": "data/AbbExpansion/pseudo_pj1/original/484.java",
+        "other_candidate": [
+            "System Properties;",
+            "System Properties;System Properties;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e010f92e3ad9529fcc23c87706f9a19f#n#n",
+        "abbr": "n",
+        "groundtruth": "node",
+        "path": "data/AbbExpansion/pseudo_pj1/original/629.java",
+        "other_candidate": [
+            "node;",
+            "nodes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8aaa32d6fabfacc1a88a790968b18da0#mgmt#pmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/590.java",
+        "other_candidate": [
+            "management;",
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b526c79e34959bccb2b672525342aebf#uri#namespaceuri",
+        "abbr": "uri",
+        "groundtruth": "uniform resource identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/658.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f214fe00eb7c3c63a3ba36420c6e9ae2#url#userstylesheeturl",
+        "abbr": "url",
+        "groundtruth": "uniform resource identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/776.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6681bcbede9b5bedc62b2a53a1b882a7#cp#cpurl",
+        "abbr": "cp",
+        "groundtruth": "classpath",
+        "path": "data/AbbExpansion/pseudo_pj1/original/315.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6681bcbede9b5bedc62b2a53a1b882a7#url#cpurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/315.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2be37cc1744ce882c575c1c4532e0489#ind#tbnodeind",
+        "abbr": "ind",
+        "groundtruth": "indices",
+        "path": "data/AbbExpansion/pseudo_pj1/original/282.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "e23babff6fee7582200eefbf85f40e63#itr#itrconfigs",
+        "abbr": "itr",
+        "groundtruth": "iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/130.java",
+        "other_candidate": [
+            "iterator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "18002e0f3e6ce378ebc0c7b250a742f8#f#f",
+        "abbr": "f",
+        "groundtruth": "file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/711.java",
+        "other_candidate": [
+            "file;",
+            "file;",
+            "file;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0cbaa5539fe998078268ea117d9311ae#dist#childdistmgmt",
+        "abbr": "dist",
+        "groundtruth": "distribution",
+        "path": "data/AbbExpansion/pseudo_pj1/original/650.java",
+        "other_candidate": [
+            "distribution;",
+            "distribution;",
+            "distribution;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0cbaa5539fe998078268ea117d9311ae#mgmt#childdistmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/650.java",
+        "other_candidate": [
+            "management;",
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d674a080fe4af998e4da020495554b30#num#tonumlist",
+        "abbr": "num",
+        "groundtruth": "number",
+        "path": "data/AbbExpansion/pseudo_pj1/original/848.java",
+        "other_candidate": [
+            "number;",
+            "number;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2bb21c8e06f938f1510961803363db23#http#sethttpheaders",
+        "abbr": "http",
+        "groundtruth": "hyper text transfer protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/593.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "e7300fcb6d701c41bf43b8db89721fe9#param#paramtypes",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/357.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "68b2990aa9c9b4823ef3728f4cad7b75#info#srcinfo",
+        "abbr": "info",
+        "groundtruth": "information",
+        "path": "data/AbbExpansion/pseudo_pj1/original/543.java",
+        "other_candidate": [
+            "info;",
+            "infos;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c040d061fb2cd7aa40f758cfd9d0c471#html#htmltext",
+        "abbr": "html",
+        "groundtruth": "hyper text transfer protocol",
+        "path": "data/AbbExpansion/pseudo_pj1/original/673.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "ee4aa18bf5cab8ac32d094ce8448263c#url#urlstring",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/380.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "bcf68ee5a680938784daeea33c0e43bf#val#foreignkeyval",
+        "abbr": "val",
+        "groundtruth": "value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/285.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "afc4f1374e18f48da505c36e6fd2b95d#ref#errorref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/172.java",
+        "other_candidate": [
+            "reference;",
+            "reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5198f1e727965b681aab9662c4a45a89#config#treewalkerconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/132.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ae4aa82fbe7391ceeea06d69bd04ec0c#ref#pluginref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/215.java",
+        "other_candidate": [
+            "reference;",
+            "reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "38e524e203aad1938f0f1e289432103c#f#ftmp",
+        "abbr": "f",
+        "groundtruth": "file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/489.java",
+        "other_candidate": [
+            "file;"
+        ],
+        "comment_candidate": [
+            "file;",
+            "file;"
+        ]
+    },
+    {
+        "id": "38e524e203aad1938f0f1e289432103c#tmp#ftmp",
+        "abbr": "tmp",
+        "groundtruth": "temporary",
+        "path": "data/AbbExpansion/pseudo_pj1/original/489.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "d2b2619f1b2eb0bf2110bd91564a2b36#conf#parentconf",
+        "abbr": "conf",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/50.java",
+        "other_candidate": [
+            "configuration;",
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f778fd01f660bf59dac423978179940c#lrm#lrm",
+        "abbr": "lrm",
+        "groundtruth": "local repository manager",
+        "path": "data/AbbExpansion/pseudo_pj1/original/626.java",
+        "other_candidate": [
+            "Local Repository Manager;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8b9594d81b670f81eec79f5c913ce3be#arr#arrlist",
+        "abbr": "arr",
+        "groundtruth": "array",
+        "path": "data/AbbExpansion/pseudo_pj1/original/413.java",
+        "other_candidate": [
+            "array;",
+            "array;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2ca01ed84f51d88d661e82863f36c32b#tmp#tmpchain",
+        "abbr": "tmp",
+        "groundtruth": "temporary",
+        "path": "data/AbbExpansion/pseudo_pj1/original/524.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "80c6fef33e7afd7a2fe07a68c1cbce29#s#swriter",
+        "abbr": "s",
+        "groundtruth": "string",
+        "path": "data/AbbExpansion/pseudo_pj1/original/572.java",
+        "other_candidate": [
+            "string;",
+            "string;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "861176c9690318de844d84eb255a960e#tcl#tcl",
+        "abbr": "tcl",
+        "groundtruth": "table cell listener",
+        "path": "data/AbbExpansion/pseudo_pj1/original/289.java",
+        "other_candidate": [
+            "Table Cell Listener;",
+            "Table Cell Listener;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5009befc243c8b537ce76dab938ecc62#sdf#sdf",
+        "abbr": "sdf",
+        "groundtruth": "simple date format",
+        "path": "data/AbbExpansion/pseudo_pj1/original/668.java",
+        "other_candidate": [
+            "Simple Date Format;",
+            "Simple Date Format;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "abe03e2b848d41cd2f30b3dbf0595352#sc#sc",
+        "abbr": "sc",
+        "groundtruth": "selection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/681.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6b6bdda7eb50ac074ede6b7ef5cf04f6#url#urlenc",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/478.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "6b6bdda7eb50ac074ede6b7ef5cf04f6#enc#urlenc",
+        "abbr": "enc",
+        "groundtruth": "encoder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/478.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "77c306b56189f7bd0c167a6d660a1d62#evt#textevt",
+        "abbr": "evt",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/820.java",
+        "other_candidate": [
+            "event;",
+            "event;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9128b7a53252eea2ec4e0a1162674851#s#skeyalg",
+        "abbr": "s",
+        "groundtruth": "size",
+        "path": "data/AbbExpansion/pseudo_pj1/original/494.java",
+        "other_candidate": [
+            "string;",
+            "size;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "ffad66ceb606aed926bcdfd61c678d26#param#queryparammatcher",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/153.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "edb0da165e46169cbbc07511dda196c4#orig#xorig",
+        "abbr": "orig",
+        "groundtruth": "origin",
+        "path": "data/AbbExpansion/pseudo_pj1/original/795.java",
+        "other_candidate": [
+            "origin;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4fd6e21c2409258decdcd4daeaea8d66#ms#tookms",
+        "abbr": "ms",
+        "groundtruth": "milliseconds",
+        "path": "data/AbbExpansion/pseudo_pj1/original/170.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "cf4d1e6277fc16148ef033dfc6272585#cl#cl",
+        "abbr": "cl",
+        "groundtruth": "class",
+        "path": "data/AbbExpansion/pseudo_pj1/original/100.java",
+        "other_candidate": [
+            "Class Loader;",
+            "Class Loader;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "943c6bf47ffad69021eeeeb08e184fb9#s#sresultclass",
+        "abbr": "s",
+        "groundtruth": "single",
+        "path": "data/AbbExpansion/pseudo_pj1/original/154.java",
+        "other_candidate": [
+            "string;single;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "08c9d6e1c9b6bc9a3663b99247f022fe#rect#tilerect",
+        "abbr": "rect",
+        "groundtruth": "rectangle",
+        "path": "data/AbbExpansion/pseudo_pj1/original/790.java",
+        "other_candidate": [
+            "rectangle;",
+            "rectangle;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a6dbdbc109890e9f6c3c5f92ab5f01db#max#max_value",
+        "abbr": "max",
+        "groundtruth": "maximum",
+        "path": "data/AbbExpansion/pseudo_pj1/original/167.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "84f3569a986bd8d8113a2ee2f2f19032#gen#keypairgen",
+        "abbr": "gen",
+        "groundtruth": "generator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/532.java",
+        "other_candidate": [
+            "generator;",
+            "generate;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "def1180213d926eec312ebfa4c1c38fe#uri#suri",
+        "abbr": "uri",
+        "groundtruth": "uniform resource identifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/435.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a4ce52af63b4614d5fe0bc0972d2c108#tok#tok",
+        "abbr": "tok",
+        "groundtruth": "token",
+        "path": "data/AbbExpansion/pseudo_pj1/original/667.java",
+        "other_candidate": [
+            "tokens;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "5e7d0e7a4d05d10237e18d8064373b9d#o#o",
+        "abbr": "o",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/21.java",
+        "other_candidate": [
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "516bca97903779ea698609e3fbd5ba34#bi#srcbi",
+        "abbr": "bi",
+        "groundtruth": "buffered image",
+        "path": "data/AbbExpansion/pseudo_pj1/original/827.java",
+        "other_candidate": [
+            "Buffered Image;",
+            "Buffered Image;",
+            "bi;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6f88b71feabf39584e2665b293b2c350#config#result3config",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/605.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "03b19ebd3b1629bac11d97f72e97c899#v#v4",
+        "abbr": "v",
+        "groundtruth": "value",
+        "path": "data/AbbExpansion/pseudo_pj1/original/788.java",
+        "other_candidate": [
+            "value;",
+            "value;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e22adea57caf65ab57c56e5ae94f86b5#millis#millis",
+        "abbr": "millis",
+        "groundtruth": "millisecond",
+        "path": "data/AbbExpansion/pseudo_pj1/original/721.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "296d1742348cf53906cdbd32df3e4bb2#mgmt#importmgmt",
+        "abbr": "mgmt",
+        "groundtruth": "management",
+        "path": "data/AbbExpansion/pseudo_pj1/original/648.java",
+        "other_candidate": [
+            "management;",
+            "management;",
+            "management;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "eaa2dc2cbd3f52b03dd8b3c3ab7e5a45#ts#ts",
+        "abbr": "ts",
+        "groundtruth": "Timing Specifier",
+        "path": "data/AbbExpansion/pseudo_pj1/original/764.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f4a2f8ccae0970c9c4d442270e9a2fc0#tg#tg",
+        "abbr": "tg",
+        "groundtruth": "thread group",
+        "path": "data/AbbExpansion/pseudo_pj1/original/660.java",
+        "other_candidate": [
+            "Thread Group;",
+            "Thread Group;"
+        ],
+        "comment_candidate": [
+            "thread groups;"
+        ]
+    },
+    {
+        "id": "35d652164a60e9fb132b128c5b57678c#tcr#tcr",
+        "abbr": "tcr",
+        "groundtruth": "tile cache red",
+        "path": "data/AbbExpansion/pseudo_pj1/original/760.java",
+        "other_candidate": [
+            "Tile Cache Red;",
+            "Tile Cache Red;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "c368cd9cae334dd0cd063a11c4907f3a#msg#errormsg",
+        "abbr": "msg",
+        "groundtruth": "message",
+        "path": "data/AbbExpansion/pseudo_pj1/original/103.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "5734cb125b1769c493d0f189dcb4eb40#bi#tmpsrcbi",
+        "abbr": "bi",
+        "groundtruth": "buffered image",
+        "path": "data/AbbExpansion/pseudo_pj1/original/854.java",
+        "other_candidate": [
+            "Buffered Image;",
+            "Buffered Image;",
+            "bi;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8efbebec96275103115cf569cf2340d3#xml#xmlwriter",
+        "abbr": "xml",
+        "groundtruth": "extensible markup language",
+        "path": "data/AbbExpansion/pseudo_pj1/original/162.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f778fd01f660bf59dac423978179940c#llrm#llrm",
+        "abbr": "llrm",
+        "groundtruth": "legacy local repository manager",
+        "path": "data/AbbExpansion/pseudo_pj1/original/626.java",
+        "other_candidate": [
+            "Legacy Local Repository Manager;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3df44b017509c1797f0330e751483da6#m#m2config",
+        "abbr": "m",
+        "groundtruth": "module",
+        "path": "data/AbbExpansion/pseudo_pj1/original/337.java",
+        "other_candidate": [
+            "metadata;",
+            "module;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3df44b017509c1797f0330e751483da6#config#m2config",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/337.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "f0ae09e9268c477c5950bb63fd22421e#tr#tr",
+        "abbr": "tr",
+        "groundtruth": "Transformer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/417.java",
+        "other_candidate": [
+            "transformer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2c58e7091c17becf9fc72602d0d271ad#md#listmd1",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/385.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dee518c03ed13cc3cf443cc37074bc51#p#pseq",
+        "abbr": "p",
+        "groundtruth": "primitive",
+        "path": "data/AbbExpansion/pseudo_pj1/original/486.java",
+        "other_candidate": [
+            "pi;",
+            "policies;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "dee518c03ed13cc3cf443cc37074bc51#seq#pseq",
+        "abbr": "seq",
+        "groundtruth": "sequence",
+        "path": "data/AbbExpansion/pseudo_pj1/original/486.java",
+        "other_candidate": [
+            "sequence;",
+            "sequence;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "da667a6e1544a629a43e9430d040bbc0#p#p2",
+        "abbr": "p",
+        "groundtruth": "point",
+        "path": "data/AbbExpansion/pseudo_pj1/original/735.java",
+        "other_candidate": [
+            "point;",
+            "point;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a6dbdbc109890e9f6c3c5f92ab5f01db#min#min_value",
+        "abbr": "min",
+        "groundtruth": "minmum",
+        "path": "data/AbbExpansion/pseudo_pj1/original/167.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "0fe4a3e0333ea1b7c3180590b0e4322e#min#min_value",
+        "abbr": "min",
+        "groundtruth": "minmum",
+        "path": "data/AbbExpansion/pseudo_pj1/original/246.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "dad4fec62f17acfef5d6a2bca70d5a0a#min#min_value",
+        "abbr": "min",
+        "groundtruth": "minmum",
+        "path": "data/AbbExpansion/pseudo_pj1/original/604.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "da667a6e1544a629a43e9430d040bbc0#p#p1",
+        "abbr": "p",
+        "groundtruth": "point",
+        "path": "data/AbbExpansion/pseudo_pj1/original/735.java",
+        "other_candidate": [
+            "point;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0277ca33845a44dc6f34742125161aaf#fc#fc2",
+        "abbr": "fc",
+        "groundtruth": "from classpath",
+        "path": "data/AbbExpansion/pseudo_pj1/original/143.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "c0279298cc21aa45d72ce9dc06f9a9e2#ret#ret",
+        "abbr": "ret",
+        "groundtruth": "request",
+        "path": "data/AbbExpansion/pseudo_pj1/original/227.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "57f021f45f3fd099787fe9665a57559a#ref#methodannotationsref",
+        "abbr": "ref",
+        "groundtruth": "reference",
+        "path": "data/AbbExpansion/pseudo_pj1/original/166.java",
+        "other_candidate": [
+            "reference;",
+            "reference;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d4f6098cd46f17572f00101cb1dab67e#e#titlee",
+        "abbr": "e",
+        "groundtruth": "element",
+        "path": "data/AbbExpansion/pseudo_pj1/original/845.java",
+        "other_candidate": [
+            "element;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "553d525a40872148adc326c7abdb62d9#c#c9",
+        "abbr": "c",
+        "groundtruth": "class",
+        "path": "data/AbbExpansion/pseudo_pj1/original/403.java",
+        "other_candidate": [
+            "compile;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6d1b8b2c436d9d6ab759e70410715b57#ext#sfileext",
+        "abbr": "ext",
+        "groundtruth": "extension",
+        "path": "data/AbbExpansion/pseudo_pj1/original/428.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "9ff2245be624e1ce65979457a3331265#col#coltype",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/290.java",
+        "other_candidate": [
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8ea107f6d2ceee4c1677730793b834c6#pw#pw",
+        "abbr": "pw",
+        "groundtruth": "print writer",
+        "path": "data/AbbExpansion/pseudo_pj1/original/539.java",
+        "other_candidate": [
+            "Print Writer;",
+            "Print Writer;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8239b99970c7742ae9bceec9520564f4#tmp#tmpfile",
+        "abbr": "tmp",
+        "groundtruth": "temporary",
+        "path": "data/AbbExpansion/pseudo_pj1/original/262.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "58527f2cffaa3947bc4d884b8bd1ce9b#p#p2",
+        "abbr": "p",
+        "groundtruth": "project",
+        "path": "data/AbbExpansion/pseudo_pj1/original/541.java",
+        "other_candidate": [
+            "project;",
+            "project;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "58527f2cffaa3947bc4d884b8bd1ce9b#p#p1",
+        "abbr": "p",
+        "groundtruth": "project",
+        "path": "data/AbbExpansion/pseudo_pj1/original/541.java",
+        "other_candidate": [
+            "project;",
+            "project;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "58527f2cffaa3947bc4d884b8bd1ce9b#p#p4",
+        "abbr": "p",
+        "groundtruth": "project",
+        "path": "data/AbbExpansion/pseudo_pj1/original/541.java",
+        "other_candidate": [
+            "project;",
+            "project;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "58527f2cffaa3947bc4d884b8bd1ce9b#p#p3",
+        "abbr": "p",
+        "groundtruth": "project",
+        "path": "data/AbbExpansion/pseudo_pj1/original/541.java",
+        "other_candidate": [
+            "project;",
+            "project;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "49fb5979b38c70e26e24a9cddb7b424b#json#texttojsonmapper",
+        "abbr": "json",
+        "groundtruth": "javascript object notation",
+        "path": "data/AbbExpansion/pseudo_pj1/original/376.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a83f34c90d63c312327ad7513730805f#src#srcchild",
+        "abbr": "src",
+        "groundtruth": "source",
+        "path": "data/AbbExpansion/pseudo_pj1/original/304.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "ee767a074d05cb482286f57f21c18da7#acc#acc",
+        "abbr": "acc",
+        "groundtruth": "accessor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/404.java",
+        "other_candidate": [
+            "accessor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a8982e56b26112d4e7b6e683da7183a9#f#fname",
+        "abbr": "f",
+        "groundtruth": "file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/25.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "8df9d93326b30983dc5a804f9fd85af3#ctor#ctorparent",
+        "abbr": "ctor",
+        "groundtruth": "constructor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/99.java",
+        "other_candidate": [
+            "constructor;",
+            "constructor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d7e5551107c1f5f964c44ce52075a416#ftp#ftp",
+        "abbr": "ftp",
+        "groundtruth": "file transferable policy",
+        "path": "data/AbbExpansion/pseudo_pj1/original/684.java",
+        "other_candidate": [
+            "File Transferable Policy;",
+            "File Transferable Policy;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f08702178ffa5f7e5f6f2e0f46d90c67#c#c",
+        "abbr": "c",
+        "groundtruth": "constructor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/410.java",
+        "other_candidate": [
+            "constructor;",
+            "compile;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b439804cc03581c97ba1f935c7c40027#md#newmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/611.java",
+        "other_candidate": [
+            "metadata;",
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8d9ff969b5ee921a038c1edde7d15edd#o#o1",
+        "abbr": "o",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/545.java",
+        "other_candidate": [
+            "object;",
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "638214ce870fb0d65c29c87d809ef579#rfh#rfh",
+        "abbr": "rfh",
+        "groundtruth": "resource factory holder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/348.java",
+        "other_candidate": [
+            "Resource Factory Holder;",
+            "Resource Factory Holder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "128dc3a32dcfd91a96c47d4e2eccbccb#b#b2",
+        "abbr": "b",
+        "groundtruth": "bytes",
+        "path": "data/AbbExpansion/pseudo_pj1/original/381.java",
+        "other_candidate": [
+            "bytes;",
+            "bytes;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1a6c26da70a7ab1da46fcc13e7326984#e#e",
+        "abbr": "e",
+        "groundtruth": "errors",
+        "path": "data/AbbExpansion/pseudo_pj1/original/332.java",
+        "other_candidate": [
+            "errors;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "cc19adc75f1f76f5e65d9590eb6b007e#var#typevar",
+        "abbr": "var",
+        "groundtruth": "variable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/152.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "fcdb5ab340ee641e06894fb652d7ccd0#r#srcr",
+        "abbr": "r",
+        "groundtruth": "rectangle",
+        "path": "data/AbbExpansion/pseudo_pj1/original/855.java",
+        "other_candidate": [
+            "rectangle;",
+            "repaint;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "6934259c17357f2ed9aceb306d22834a#param#param",
+        "abbr": "param",
+        "groundtruth": "parameter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/607.java",
+        "other_candidate": [
+            "parameter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9fa9d98fc2ca674f63483f2d5bd95859#ev#ev2",
+        "abbr": "ev",
+        "groundtruth": "event",
+        "path": "data/AbbExpansion/pseudo_pj1/original/76.java",
+        "other_candidate": [
+            "event;",
+            "error Violation;",
+            "event;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "30b1de5ac8e4fc702de47858a5418dfb#wr#wr2",
+        "abbr": "wr",
+        "groundtruth": "Writable Raster",
+        "path": "data/AbbExpansion/pseudo_pj1/original/842.java",
+        "other_candidate": [
+            "Writable Raster;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e4835eaca62a3e214be92f048d01973c#hex#hex",
+        "abbr": "hex",
+        "groundtruth": "hexadecimal",
+        "path": "data/AbbExpansion/pseudo_pj1/original/520.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "387baa2652a3e3641ca38967fd6bfecc#len#nanoslen",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/324.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": [
+            "leading;"
+        ]
+    },
+    {
+        "id": "a75504047ffd09c30746f6df4719a9b8#attr#attrvalue",
+        "abbr": "attr",
+        "groundtruth": "attribute",
+        "path": "data/AbbExpansion/pseudo_pj1/original/49.java",
+        "other_candidate": [
+            "attribute;",
+            "attribute;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "7c1d27a94d49943d8de7fc6777e057ec#pd#pd",
+        "abbr": "pd",
+        "groundtruth": "plugin descriptor",
+        "path": "data/AbbExpansion/pseudo_pj1/original/669.java",
+        "other_candidate": [
+            "Plugin Descriptor;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "51d706686cf5f8f79f3a59c34ca45cfa#md#objectmd",
+        "abbr": "md",
+        "groundtruth": "metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/352.java",
+        "other_candidate": [
+            "metadata;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "665e63d9fdef8efd9a7f945ef33bf4a6#ver#bcver",
+        "abbr": "ver",
+        "groundtruth": "version",
+        "path": "data/AbbExpansion/pseudo_pj1/original/466.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "12a2a81ecd3ee9e73e09d66f1adc0079#config#langconfig",
+        "abbr": "config",
+        "groundtruth": "configuration",
+        "path": "data/AbbExpansion/pseudo_pj1/original/586.java",
+        "other_candidate": [
+            "configuration;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "f933d89e115d0d1974bd1ed625d0661d#t#t",
+        "abbr": "t",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/24.java",
+        "other_candidate": [
+            "test;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "3d7b56141157c6dcd0848a991749e695#f#prevf",
+        "abbr": "f",
+        "groundtruth": "font",
+        "path": "data/AbbExpansion/pseudo_pj1/original/758.java",
+        "other_candidate": [
+            "font;",
+            "font#family;font;font;",
+            "for#font;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "84489b4bcb7fb82124cfac0b11764f22#eku#eku",
+        "abbr": "eku",
+        "groundtruth": "extended key usage",
+        "path": "data/AbbExpansion/pseudo_pj1/original/430.java",
+        "other_candidate": [
+            "Extended Key Usage;",
+            "Extended Key Usage;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "9ff2245be624e1ce65979457a3331265#conn#conn",
+        "abbr": "conn",
+        "groundtruth": "connection",
+        "path": "data/AbbExpansion/pseudo_pj1/original/290.java",
+        "other_candidate": [
+            "connection;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "d27b0873610a984cab696b69313dcaf8#v#vorient",
+        "abbr": "v",
+        "groundtruth": "vertical",
+        "path": "data/AbbExpansion/pseudo_pj1/original/778.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "db727f0d1aa6e25ce7c0648d27c3bfa4#url#newrelativeurl",
+        "abbr": "url",
+        "groundtruth": "uniform resource locator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/209.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "2e3fe4187c218ddf5984d06eedd18a86#sci#sci",
+        "abbr": "sci",
+        "groundtruth": "string character iterator",
+        "path": "data/AbbExpansion/pseudo_pj1/original/817.java",
+        "other_candidate": [
+            "String Character Iterator;",
+            "String Character Iterator;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "24d673454829f47f9412824fa77fd27b#xf#xf1",
+        "abbr": "xf",
+        "groundtruth": "xpath filter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/98.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "24d673454829f47f9412824fa77fd27b#xf#xf0",
+        "abbr": "xf",
+        "groundtruth": "xpath filter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/98.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "bc925179e6749c60b750ea0717a1fe80#p#p3",
+        "abbr": "p",
+        "groundtruth": "point",
+        "path": "data/AbbExpansion/pseudo_pj1/original/819.java",
+        "other_candidate": [
+            "point;",
+            "point;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "a6140eff65c63b94c9ca865be5bd4a8d#params#params",
+        "abbr": "params",
+        "groundtruth": "parameters",
+        "path": "data/AbbExpansion/pseudo_pj1/original/267.java",
+        "other_candidate": [
+            "parameters[+s];",
+            "parameters;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "0acd19b1d1e5b467e9900acaedcf9335#req#req1",
+        "abbr": "req",
+        "groundtruth": "request",
+        "path": "data/AbbExpansion/pseudo_pj1/original/548.java",
+        "other_candidate": [
+            "request;",
+            "requests;request;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "80516db02b76d746c3f2299dcb6efce8#sys#syspath",
+        "abbr": "sys",
+        "groundtruth": "system",
+        "path": "data/AbbExpansion/pseudo_pj1/original/618.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "a0b525c2deb4ffd71e8206ab06779231#ce#ce",
+        "abbr": "ce",
+        "groundtruth": "creation exception",
+        "path": "data/AbbExpansion/pseudo_pj1/original/374.java",
+        "other_candidate": [
+            "Creation Exception;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "1fb8640e867ed219d74158361234137f#col#typecol",
+        "abbr": "col",
+        "groundtruth": "column",
+        "path": "data/AbbExpansion/pseudo_pj1/original/525.java",
+        "other_candidate": [
+            "column;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#o#oresultclass",
+        "abbr": "o",
+        "groundtruth": "observable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [
+            "observable;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "93aa4a1a90b791bebf8f7c1674eb9d90#o#o2",
+        "abbr": "o",
+        "groundtruth": "option",
+        "path": "data/AbbExpansion/pseudo_pj1/original/399.java",
+        "other_candidate": [
+            "option;",
+            "options;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "84a15d2d83826ae95ba28edf3d26c796#omd#omd",
+        "abbr": "omd",
+        "groundtruth": "option metadata",
+        "path": "data/AbbExpansion/pseudo_pj1/original/396.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "93aa4a1a90b791bebf8f7c1674eb9d90#o#o1",
+        "abbr": "o",
+        "groundtruth": "option",
+        "path": "data/AbbExpansion/pseudo_pj1/original/399.java",
+        "other_candidate": [
+            "option;",
+            "options;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "e4835eaca62a3e214be92f048d01973c#obj#tagobj",
+        "abbr": "obj",
+        "groundtruth": "object",
+        "path": "data/AbbExpansion/pseudo_pj1/original/520.java",
+        "other_candidate": [
+            "object;",
+            "object;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "8b9594d81b670f81eec79f5c913ce3be#rf#rf",
+        "abbr": "rf",
+        "groundtruth": "recent file",
+        "path": "data/AbbExpansion/pseudo_pj1/original/413.java",
+        "other_candidate": [
+            "Recent File;",
+            "Recent Files;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "51a8450ae7ab3ec347c4fe2e60cf7776#len#len",
+        "abbr": "len",
+        "groundtruth": "length",
+        "path": "data/AbbExpansion/pseudo_pj1/original/499.java",
+        "other_candidate": [
+            "length;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "fd55f800bf18fdf330c1bff8094f7b53#txt#txtfile",
+        "abbr": "txt",
+        "groundtruth": "text",
+        "path": "data/AbbExpansion/pseudo_pj1/original/568.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "79c362bc7871bfa920827d95e5f517f3#sig#sigalgname",
+        "abbr": "sig",
+        "groundtruth": "signature",
+        "path": "data/AbbExpansion/pseudo_pj1/original/509.java",
+        "other_candidate": [
+            "string;"
+        ],
+        "comment_candidate": [
+            "signature;"
+        ]
+    },
+    {
+        "id": "79c362bc7871bfa920827d95e5f517f3#alg#sigalgname",
+        "abbr": "alg",
+        "groundtruth": "algorithm",
+        "path": "data/AbbExpansion/pseudo_pj1/original/509.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "3a497fbc9d58fba0e2074ad95cae6e2c#aaf#aaf",
+        "abbr": "aaf",
+        "groundtruth": "and artifact filter",
+        "path": "data/AbbExpansion/pseudo_pj1/original/617.java",
+        "other_candidate": [
+            "And Artifact Filter;",
+            "And Artifact Filter;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "2b4811e570acc7e81852f5376d4500f1#f#fbodywildcard",
+        "abbr": "f",
+        "groundtruth": "flowable",
+        "path": "data/AbbExpansion/pseudo_pj1/original/191.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "31e513123cc9f653e1a430321170e414#inv#vtinv",
+        "abbr": "inv",
+        "groundtruth": "inverse",
+        "path": "data/AbbExpansion/pseudo_pj1/original/750.java",
+        "other_candidate": [],
+        "comment_candidate": []
+    },
+    {
+        "id": "b238765013eed8971c888c92c9528520#tc#tc1",
+        "abbr": "tc",
+        "groundtruth": "tool chain",
+        "path": "data/AbbExpansion/pseudo_pj1/original/644.java",
+        "other_candidate": [
+            "Tool Chain;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "b238765013eed8971c888c92c9528520#tc#tc2",
+        "abbr": "tc",
+        "groundtruth": "tool chain",
+        "path": "data/AbbExpansion/pseudo_pj1/original/644.java",
+        "other_candidate": [
+            "Tool Chain;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "4eb7fc42866ada751a77ec253cbda6c1#sb#sbreport",
+        "abbr": "sb",
+        "groundtruth": "string builder",
+        "path": "data/AbbExpansion/pseudo_pj1/original/482.java",
+        "other_candidate": [
+            "String Builder;",
+            "String Builder;"
+        ],
+        "comment_candidate": []
+    },
+    {
+        "id": "80fd7b9c5825a8964bbe8fbd4ecd27ea#dom#domfactory",
+        "abbr": "dom",
+        "groundtruth": "document",
+        "path": "data/AbbExpansion/pseudo_pj1/original/260.java",
+        "other_candidate": [
+            "document;"
+        ],
+        "comment_candidate": []
+    }
+]

@@ -1,0 +1,1600 @@
+ERROR:root:[Error] - Method index 0
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 1
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 2
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 3
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 4
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 5
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 6
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 7
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 8
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 9
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 10
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 11
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 12
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 13
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 14
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 15
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 16
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 17
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 18
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 19
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 20
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 21
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 22
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 23
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 24
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 25
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 26
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 27
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 28
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 29
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 30
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 31
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 32
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 33
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 34
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 35
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 36
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 37
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 38
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 39
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 40
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 41
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 42
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 43
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 44
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 45
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 46
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 47
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 48
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 49
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 50
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 51
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 52
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 53
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 54
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 55
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 56
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 57
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 58
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 59
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 60
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 61
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 62
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 63
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 64
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 65
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 66
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 67
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 68
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 69
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 70
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 71
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 72
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 73
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 74
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 75
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 76
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 77
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 78
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 79
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 80
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 81
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 82
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 83
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 84
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 85
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 86
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 87
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 88
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 89
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 90
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 91
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 92
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 93
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 94
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 95
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 96
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 97
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 98
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 99
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 100
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 101
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 102
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 103
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 104
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 105
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 106
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 107
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 108
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 109
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 110
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 111
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 112
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 113
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 114
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 115
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 116
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 117
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 118
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 119
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 120
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 121
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 122
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 123
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 124
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 125
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 126
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 127
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 128
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 129
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 130
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 131
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 132
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 133
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 134
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 135
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 136
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 137
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 138
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 139
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 140
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 141
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 142
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 143
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 144
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 145
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 146
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 147
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 148
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 149
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 150
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 151
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 152
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 153
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 154
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 155
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 156
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 157
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 158
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+
+ERROR:root:[Error] - Method index 159
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 44, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 39, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 42, in explain_for_var
+    output = self.tokenizer.decode(x, skip_special_tokens=True)
+NameError: name 'x' is not defined
+

@@ -1,0 +1,30 @@
+INFO:root:'code_doc'比'code':
+INFO:root:Worse count: 2101/15709, Worse Rate: 0.13374498695015596
+INFO:root:Better count: 6289/15709, Better Rate: 0.4003437519893055
+INFO:root:Equal count: 7319/15709, Equal Rate: 0.46591126106053854
+INFO:root:-------------------------------------------------------------------------------
+INFO:root:'enriched_code'比'code':
+INFO:root:Worse count: 2899/15709, Worse Rate: 0.18454389203641225
+INFO:root:Better count: 4704/15709, Better Rate: 0.2994461773505634
+INFO:root:Equal count: 8106/15709, Equal Rate: 0.5160099306130244
+INFO:root:-------------------------------------------------------------------------------
+INFO:root:'doc_enriched_code'比'code':
+INFO:root:Worse count: 2405/15709, Worse Rate: 0.15309695079253932
+INFO:root:Better count: 6458/15709, Better Rate: 0.4111019160990515
+INFO:root:Equal count: 6846/15709, Equal Rate: 0.4358011331084092
+INFO:root:-------------------------------------------------------------------------------
+INFO:root:'enriched_code'比'code_doc':
+INFO:root:Worse count: 5239/15709, Worse Rate: 0.3335030874021262
+INFO:root:Better count: 2839/15709, Better Rate: 0.18072442548857343
+INFO:root:Equal count: 7631/15709, Equal Rate: 0.4857724871093004
+INFO:root:-------------------------------------------------------------------------------
+INFO:root:'doc_enriched_code'比'code_doc':
+INFO:root:Worse count: 3628/15709, Worse Rate: 0.2309504105926539
+INFO:root:Better count: 2839/15709, Better Rate: 0.18072442548857343
+INFO:root:Equal count: 9242/15709, Equal Rate: 0.5883251639187727
+INFO:root:-------------------------------------------------------------------------------
+INFO:root:'doc_enriched_code'比'enriched_code':
+INFO:root:Worse count: 2540/15709, Worse Rate: 0.16169075052517665
+INFO:root:Better count: 4898/15709, Better Rate: 0.3117957858552422
+INFO:root:Equal count: 8271/15709, Equal Rate: 0.5265134636195812
+INFO:root:-------------------------------------------------------------------------------

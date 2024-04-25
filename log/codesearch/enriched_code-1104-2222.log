@@ -1,0 +1,71 @@
+INFO:root:Loading train dataset...
+INFO:root:Loading eval dataset...
+INFO:root:Loading encoder...
+INFO:root:Start training...
+INFO:root:Epoch:1, Step:500, Average Loss:0.2744691374003887, Current Loss:0.32166269421577454
+INFO:root:Epoch:1, Step:1000, Average Loss:0.1764817997664213, Current Loss:0.12300616502761841
+INFO:root:Epoch:1, Step:1500, Average Loss:0.13848093723257382, Current Loss:0.16409753262996674
+INFO:root:Epoch:1, Step:2000, Average Loss:0.11864619191735983, Current Loss:0.04347802698612213
+INFO:root:Epoch:1, Step:2500, Average Loss:0.10557041511535645, Current Loss:0.0
+INFO:root:Epoch:1, Step:3000, Average Loss:0.09553827211260796, Current Loss:0.0719984769821167
+INFO:root:Epoch:1, Step:3500, Average Loss:0.08855211852703776, Current Loss:0.0
+INFO:root:Epoch:1, Step:4000, Average Loss:0.08238278080150485, Current Loss:0.025780782103538513
+INFO:root:Epoch:1, Step:4500, Average Loss:0.07783121121260855, Current Loss:0.00021056830883026123
+INFO:root:Epoch:1, Step:5000, Average Loss:0.07358368918299675, Current Loss:0.006783843040466309
+INFO:root:Epoch:1, Step:5500, Average Loss:0.0703211471600966, Current Loss:0.010033026337623596
+INFO:root:Epoch:1, Step:6000, Average Loss:0.06735573945194483, Current Loss:0.0
+INFO:root:Epoch:1, Step:6500, Average Loss:0.06453771822956893, Current Loss:0.0
+INFO:root:Epoch:1, Step:7000, Average Loss:0.06269659848724093, Current Loss:0.13612207770347595
+INFO:root:Epoch:1, Step:7500, Average Loss:0.06091797326405843, Current Loss:0.040881574153900146
+INFO:root:Epoch:1, Step:8000, Average Loss:0.05926525371707976, Current Loss:0.16720198094844818
+INFO:root:Epoch:1, Step:8500, Average Loss:0.05783406964119743, Current Loss:0.040189266204833984
+INFO:root:Epoch:1, Step:9000, Average Loss:0.0562800090180503, Current Loss:0.1358683705329895
+INFO:root:Epoch:1, Step:9500, Average Loss:0.05505899216783674, Current Loss:0.017664223909378052
+INFO:root:Epoch:1, Step:10000, Average Loss:0.054134897670149805, Current Loss:0.06798732280731201
+INFO:root:Epoch:1, Step:10500, Average Loss:0.053084385412079944, Current Loss:0.024293750524520874
+INFO:root:Epoch:1, Step:11000, Average Loss:0.05206323351643302, Current Loss:0.07869040966033936
+INFO:root:Epoch:1, Step:11500, Average Loss:0.05115783395715382, Current Loss:0.06970980763435364
+INFO:root:Epoch:1, Step:12000, Average Loss:0.05024109047030409, Current Loss:0.05777113139629364
+INFO:root:Epoch:1, Step:12500, Average Loss:0.049425471626520154, Current Loss:0.002958640456199646
+INFO:root:Epoch:1, Step:13000, Average Loss:0.0486635212623156, Current Loss:0.0
+INFO:root:Epoch:1, Step:13500, Average Loss:0.047968311030555655, Current Loss:0.01539488136768341
+INFO:root:Epoch:1, Step:14000, Average Loss:0.04743071707976716, Current Loss:0.0
+INFO:root:Epoch:1, Step:14500, Average Loss:0.04675934261083603, Current Loss:0.0
+INFO:root:Epoch:1, Step:15000, Average Loss:0.04616611779431502, Current Loss:0.049627885222435
+INFO:root:Epoch:1, Step:15500, Average Loss:0.0455673972349013, Current Loss:0.0
+INFO:root:Epoch:1, Step:16000, Average Loss:0.04497353153675795, Current Loss:0.010863766074180603
+INFO:root:Epoch:1, Step:16500, Average Loss:0.04444746027119232, Current Loss:0.34662026166915894
+INFO:root:Epoch:1, Step:17000, Average Loss:0.043961768226588475, Current Loss:0.057566121220588684
+INFO:root:Epoch:1, Step:17500, Average Loss:0.0435179032768522, Current Loss:0.011807277798652649
+INFO:root:Epoch:1, Step:18000, Average Loss:0.04305043330291907, Current Loss:0.08719795942306519
+INFO:root:Epoch:1, Step:18500, Average Loss:0.04258571021460198, Current Loss:0.0
+INFO:root:Epoch:1, Step:19000, Average Loss:0.042152771155300896, Current Loss:0.020958632230758667
+INFO:root:Epoch:1, Step:19500, Average Loss:0.04173077545486964, Current Loss:0.0
+INFO:root:Epoch:1, Step:20000, Average Loss:0.04138160173818469, Current Loss:0.0
+INFO:root:Epoch:1, Step:20500, Average Loss:0.041082156232944346, Current Loss:0.01899924874305725
+INFO:root:Epoch:1, Step:21000, Average Loss:0.040744021016217415, Current Loss:0.0
+INFO:root:Epoch:1, Step:21500, Average Loss:0.040409321359423704, Current Loss:0.0
+INFO:root:Epoch:1, Step:22000, Average Loss:0.040083679922602394, Current Loss:0.05553041398525238
+INFO:root:Epoch:1, Step:22500, Average Loss:0.039768241512113146, Current Loss:0.14810408651828766
+INFO:root:Epoch:1, Step:23000, Average Loss:0.03947111561440903, Current Loss:0.0
+INFO:root:Epoch:1, Step:23500, Average Loss:0.03921433996139689, Current Loss:0.0
+INFO:root:Epoch:1, Step:24000, Average Loss:0.038959237872312466, Current Loss:0.0
+INFO:root:Epoch:1, Step:24500, Average Loss:0.03867605231002885, Current Loss:0.0
+INFO:root:Epoch:1, Step:25000, Average Loss:0.03845334689319134, Current Loss:0.034443676471710205
+INFO:root:Epoch:1, Step:25500, Average Loss:0.03811525036073198, Current Loss:0.0
+INFO:root:Epoch:1, Step:26000, Average Loss:0.03792186629944123, Current Loss:0.1913268268108368
+INFO:root:Epoch:1, Step:26500, Average Loss:0.03770572781619036, Current Loss:0.0
+INFO:root:Epoch:1, Step:27000, Average Loss:0.037441687313494856, Current Loss:0.0865059643983841
+INFO:root:Epoch:1, Step:27500, Average Loss:0.03724084988182241, Current Loss:0.03001105785369873
+INFO:root:Epoch:1, Step:28000, Average Loss:0.037066150552460125, Current Loss:0.0
+INFO:root:Epoch:1, Step:28500, Average Loss:0.03690467400927293, Current Loss:0.16367484629154205
+INFO:root:Epoch:1, Step:29000, Average Loss:0.03666436239460419, Current Loss:0.0
+INFO:root:Epoch:1, Step:29500, Average Loss:0.03649162427298093, Current Loss:0.0
+INFO:root:Epoch:1, Step:30000, Average Loss:0.0362861500158906, Current Loss:0.0
+INFO:root:Evaluation --- MRR :{1: 4.033922755596122, 2: 0.0, 3: 0.0, 5: 0.0, 10: 0.0, 15: 0.0, 50: 0.0, 100: 0.0}, HIT:{1: 5.6382257012394, 2: 0.0, 3: 0.0, 5: 0.0, 10: 0.0, 15: 0.0, 50: 0.0, 100: 0.0}
+INFO:root:Evaluation --- Max MRR:0, Current MRR:{1: 4.033922755596122, 2: 0.0, 3: 0.0, 5: 0.0, 10: 0.0, 15: 0.0, 50: 0.0, 100: 0.0}, Current HIT:{1: 5.6382257012394, 2: 0.0, 3: 0.0, 5: 0.0, 10: 0.0, 15: 0.0, 50: 0.0, 100: 0.0}
+INFO:root:Epoch:1, Step:30500, Average Loss:0.03600153309497677, Current Loss:0.0
+INFO:root:Epoch:1, Step:31000, Average Loss:0.03573569932916472, Current Loss:0.014847472310066223
+INFO:root:Epoch:1, Step:31500, Average Loss:0.03549529732976641, Current Loss:0.0
+INFO:root:Epoch:1, Step:32000, Average Loss:0.035250153636559846, Current Loss:0.02345658838748932
+INFO:root:Epoch:1, Step:32500, Average Loss:0.03497154872830097, Current Loss:0.026178359985351562

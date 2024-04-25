@@ -1,0 +1,7 @@
+INFO:root:[INFO] - Batch 0 - 128
+INFO:root:[INFO] - Batch 128 - 256
+INFO:root:[INFO] - Batch 256 - 384
+INFO:root:[INFO] - Batch 384 - 512
+INFO:root:[INFO] - Batch 512 - 640
+INFO:root:[INFO] - Batch 640 - 768
+INFO:root:[INFO] - Batch 768 - 896

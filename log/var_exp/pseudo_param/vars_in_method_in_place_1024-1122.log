@@ -1,0 +1,1694 @@
+ERROR:root:[Error] - Method index 1052
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 1480
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 2348
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 2410
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 2500
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 2501
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 2841
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 3428
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 3442
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 68, in <module>
+    explanations = explainer.explain_with_doc(example.method, prompt)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 37, in explain_with_doc
+    predictions = self.explain_for_var(method, prompt_template, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/codet5.py", line 38, in explain_for_var
+    generated_ids = self.base_model.generate(input_ids, max_new_tokens=128, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 1207, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 524, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 1040, in forward
+    layer_outputs = layer_module(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 673, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 579, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 521, in forward
+    position_bias = self.compute_bias(real_seq_length, key_length, device=scores.device)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 428, in compute_bias
+    relative_position_bucket = self._relative_position_bucket(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/t5/modeling_t5.py", line 414, in _relative_position_bucket
+    relative_position_if_large = torch.min(
+RuntimeError: CUDA out of memory. Tried to allocate 1.13 GiB (GPU 0; 23.70 GiB total capacity; 13.60 GiB already allocated; 377.62 MiB free; 13.79 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Method index 3538
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 3604
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4034
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4052
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4289
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4369
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4462
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4534
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4546
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 4593
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 5035
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5105
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5459
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5460
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5461
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5563
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5581
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 5708
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 5737
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5738
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5745
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5978
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 5979
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6124
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6258
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6273
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6489
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6492
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6708
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6709
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6772
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 6800
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6852
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 6882
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 6893
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7015
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7182
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7186
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 7251
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 7280
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7418
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7495
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7599
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7600
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7621
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 7631
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7647
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7669
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7704
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7842
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 7993
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 8033
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8079
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8081
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8082
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8083
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8084
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8097
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8118
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8253
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8428
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8504
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 8666
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 9113
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9116
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9120
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9145
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9149
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9175
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9186
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9199
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9276
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9631
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9638
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9642
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9670
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9683
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9684
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9711
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 9822
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10043
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10044
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10045
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10046
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10047
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10085
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10217
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10346
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 10626
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10641
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10679
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10681
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10688
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10752
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10904
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 10949
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 11154
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 11259
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 11303
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 11364
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 11416
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 11469
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 11700
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 11961
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12019
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12063
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12231
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12248
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12270
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12405
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12639
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12676
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12677
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12678
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12762
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12904
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 12919
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13021
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13028
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13029
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13081
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13112
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13141
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 13275
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 13542
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13551
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 13563
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13621
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13725
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13750
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 13977
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 13993
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 13999
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 14002
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14021
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14036
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14247
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14260
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14381
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 14834
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 14836
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 15463
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 15559
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 15897
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 16947
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 16957
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17003
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17022
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17094
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17215
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17370
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17420
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17435
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17437
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17593
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17603
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17604
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17662
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17855
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 17999
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18031
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18361
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18572
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18830
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18833
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 18849
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 19290
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 19329
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 19432
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 19503
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 19825
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 20924
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 20978
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 21014
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 21058
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 21137
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 21188
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 21258
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 21290
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22220
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22227
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22350
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22515
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 22564
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22587
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22590
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22683
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22684
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 22765
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 22805
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22826
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22853
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22857
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22901
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 22908
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 23136
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 23553
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 23748
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 23946
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 24208
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 24577
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 24779
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 66, in <module>
+    for var_name, line in example.vars.items():
+AttributeError: 'NoneType' object has no attribute 'items'
+
+ERROR:root:[Error] - Method index 24840
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 24890
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 25333
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 26768
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+
+ERROR:root:[Error] - Method index 26864
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/codet5_method_var_predict.py", line 73, in <module>
+    record["commented_code"] = explainer.add_exp_to_code(example.method, predictions)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/abstract_var_explainer.py", line 49, in add_exp_to_code
+    commented_method.append(f"// {var['name']}: {var['exp'][0]}\n")
+IndexError: list index out of range
+

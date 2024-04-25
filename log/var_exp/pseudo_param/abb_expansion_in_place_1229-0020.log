@@ -1,0 +1,126 @@
+ERROR:root:[Error] - Batch 0 - 128
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 128 - 256
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 256 - 384
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 384 - 512
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 512 - 640
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 640 - 768
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+
+ERROR:root:[Error] - Batch 768 - 896
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 69, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 288, in explain
+    explanations_list = self.explain_for_vars(methods, vars_list, prompt_templates_list, cand_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 323, in explain_for_vars
+    generated_ids = self.explain_model.generate(input_ids, max_new_tokens=15, num_beams=cand_num, num_return_sequences=cand_num)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 927, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/generation_utils.py", line 412, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'max_new_tokens'
+

@@ -1,0 +1,208 @@
+ERROR:root:[Error] - Batch 0 - 128
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 128 - 256
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 256 - 384
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 384 - 512
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 512 - 640
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 640 - 768
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 768 - 896
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 133, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 158, in forward
+    return F.embedding(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2199, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 23.70 GiB total capacity; 1.65 GiB already allocated; 171.31 MiB free; 1.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+ERROR:root:[Error] - Batch 896 - 1024
+Traceback (most recent call last):
+  File "/home/fdse/ljw/CodeLM-Prompt/script/var_exp/pseudo_param/AbbExpansion_predict.py", line 51, in <module>
+    prompt_templates_list, explanations_list = explainer.explain(methods, vars_list, prompt_num=1, cand_num=3)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 286, in explain
+    prompt_templates_list = self.generate_prompt_templates(methods, prompt_num=prompt_num)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 301, in generate_prompt_templates
+    prediction_ids = self.prompt_model.generate(source_ids, decoder_only=False, beam_size=prompt_num, max_length=128)
+  File "/home/fdse/ljw/CodeLM-Prompt/var_exp/pseudo_param/hybird.py", line 108, in generate
+    encoder_output = self.model(source_ids,attention_mask=mask)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 845, in forward
+    embedding_output = self.embeddings(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/transformers/models/roberta/modeling_roberta.py", line 139, in forward
+    embeddings = self.LayerNorm(embeddings)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/modules/normalization.py", line 189, in forward
+    return F.layer_norm(
+  File "/opt/miniconda3/envs/ljw_py39/lib/python3.9/site-packages/torch/nn/functional.py", line 2503, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+RuntimeError: CUDA out of memory. Tried to allocate 80.00 MiB (GPU 0; 23.70 GiB total capacity; 1.68 GiB already allocated; 11.31 MiB free; 1.94 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
